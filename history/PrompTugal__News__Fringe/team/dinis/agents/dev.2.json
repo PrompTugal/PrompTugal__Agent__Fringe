@@ -1,0 +1,63 @@
+{
+  "agent": "dev.2.fringe@PrompTugal.dinis",
+  "updated": "2026-11-12T18:21Z",
+  "started_by": "conductor.fringe@PrompTugal.dinis, at Dinis's word (brief 4)",
+  "branch": "dev",
+  "state": "working",
+  "doing": [
+    "12:23 wake: all four assigned items live or done; free for the next dev item"
+  ],
+  "done": [
+    "session key made (dev.2.fringe-dinis in data/keys.json)",
+    "work/16 done: /now/ and the on-now block on the home page (live)",
+    "work/23 page parts done: /organisers/ (draft offer), data/organisers.json, event pages link organisers (live)",
+    "work/15 done: /changes/ and /api/v1/changes.json from git (live, 98 commits)",
+    "work/20 done: admin/tools/llm.mjs router with ledger and credit check (built, mock-tested)",
+    "fixed deploy.yml twice: two invalid-YAML steps (mine and design.2's) had failed runs 60 to 63",
+    "12:50 UTC: first real use of the router, at the lead's word: admin/tools/second-opinion.mjs; 170 events checked, data/second-opinion.json; 0.006 USD (0.0035 per 100 events)",
+    "12:58 UTC: second-opinion moved to a 70B model (llama-3.3-70b-instruct) with times normalised to UTC minutes in code: 170 events, 14 mismatches (was 125), 0.031 USD per 100 events",
+    "13:2x wake: second-opinion run: 171 checked, 17 mismatches, 0.074 USD",
+    "work/37 releases live; work/41 /tip/ first version live, switched to data/inboxes/lane-tips.json; test tip tip-a97f86b4 sent to the real lane",
+    "work/47 /models/ live; table header fix",
+    "14:3x wake: second-opinion run 166 checked, 17 mismatches, 0.068 USD; models ledger refreshed",
+    "15:3x wake: second-opinion 168 checked, 15 flagged, 0.077 USD; models ledger refreshed",
+    "16:3x: second-opinion PAUSED for Luma/Meetup pages (lead's terms hold, work/49): code now skips luma.com, lu.ma, meetup.com; the 16:21 wake run fetched Luma pages before the hold reached me and its results were not committed",
+    "/models/: E1 to E3 noted as predating the Luma hold",
+    "17:3x: second-opinion wired to data/feeds/luma-ical.json (no Luma page fetched, no model call for Luma): 100 Luma events compared, 1 status mismatch (funders-founders-night-altair)",
+    "/universe/ served (gravity.1's adapter), linked from the agentic-team nav and /graph/; one constant (admin/build/universe.mjs) picks vendored vs cross-site gravity.js",
+    "18:1x: Dinis decided /universe/ keeps loading gravity.js live from web-summit.sgit.ai (a domain he controls); constant left as is, ask closed",
+    "18:2x wake: second-opinion from the iCal feed (93 Luma events, 0 mismatches, $0); models ledger refreshed",
+    "19:2x wake: second-opinion run (iCal feed), models ledger refreshed",
+    "security finding 37: /universe/ gravity.js tag now has integrity=sha384 and crossorigin=anonymous (web-summit.sgit.ai sends access-control-allow-origin: *); tested good bytes load, tampered bytes refused",
+    "20:2x wake: second-opinion run (iCal feed), models ledger refreshed",
+    "21:2x wake: second-opinion run (iCal feed), models ledger refreshed",
+    "21:2x: abp whoami run (finding 44); audited every llm.mjs caller: only second-opinion.mjs (public organiser page text and iCal data, never tip text); llm.mjs now refuses any task named tip/tips (advice 2053 item 7)",
+    "22:2x wake: second-opinion run (iCal feed), models ledger refreshed",
+    "23:2x wake: second-opinion run (iCal feed), models ledger refreshed",
+    "finding 45: release.sh now runs admin/tools/commit-check.mjs on every commit in origin/dev..HEAD (size over 256 KB, binaries, forbidden paths, key files) before the gate and refuses naming the commit; tested on a throwaway branch (add 300 KB then remove: refused)",
+    "00:2x (12 Nov) wake: second-opinion run (iCal feed), models ledger refreshed",
+    "07:2x (12 Nov) wake: second-opinion run (iCal feed), models ledger refreshed",
+    "08:2x (12 Nov) wake: second-opinion run (iCal feed), models ledger refreshed",
+    "09:2x (12 Nov) wake: second-opinion run (iCal feed), models ledger refreshed",
+    "10:2x (12 Nov) wake: second-opinion run (iCal feed), models ledger refreshed",
+    "10:3x: /now/ timeline: an unknown status never leads Now (sorted after every known live event) and an event crossing midnight shows its dates (Wed 11 14:30 to Thu 12 17:30); checked at 390 and 1280 px",
+    "11:2x (12 Nov) wake: second-opinion run (iCal feed), models ledger refreshed",
+    "12:2x (12 Nov) wake: second-opinion run (iCal feed), models ledger refreshed",
+    "13:2x (12 Nov) wake: second-opinion run (iCal feed), models ledger refreshed",
+    "finding 5: the gate (validate.mjs section 7) now fails on email addresses and phone numbers in tracked data/ JSON and the built site; 0 hits on the current tree after the allow-list; negative tests pass",
+    "14:2x (12 Nov) wake: second-opinion run (iCal feed), models ledger refreshed",
+    "15:2x (12 Nov) wake: second-opinion run (iCal feed), models ledger refreshed",
+    "16:2x (12 Nov) wake: second-opinion run (iCal feed), models ledger refreshed",
+    "17:2x (12 Nov) wake: second-opinion run (iCal feed), models ledger refreshed",
+    "18:2x (12 Nov) wake: second-opinion run (iCal feed), models ledger refreshed"
+  ],
+  "next": [
+    "FRIDAY 13 Nov from 07:00 UTC, not before (the lead: the site stays still on Thursday): (1) pages register themselves from admin/build/pages/<name>.mjs so build.mjs stops being a hotspot; (2) api/v1/README.md generated from api/v1/docs/<endpoint>.md. One change per release, gate green, every page checked live (200, same content) before and after. Source: docs/handoffs/2026-11-12-shared-file-hotspots.md",
+    "refresh /models/ ledger at each wake",
+    "refresh /models/ ledger and second-opinion at each wake; ask researcher.2 for a stable event id/url in the feed so the 54 unmatched Luma events can be compared too"
+  ],
+  "asks": [
+    "Dinis: approve the organiser offer in work/23 (it is marked 'draft until Dinis approves' on /organisers/); say yes and dev.2 flips it.",
+    "architect.1 or the lead: ROLES.md is outside dev.2's grant. Please add to step 6 (the run-log step): 'if you call admin/tools/llm.mjs, run node admin/tools/models-summary.mjs and commit data/models-ledger.json, so /models/ lists you under Called by.' (the lead asked for it, 14:10 UTC)"
+  ]
+}

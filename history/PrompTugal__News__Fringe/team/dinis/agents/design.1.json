@@ -1,0 +1,56 @@
+{
+ "agent": "design.1.fringe@PrompTugal.dinis",
+ "updated": "2026-11-12T17:54Z",
+ "state": "working",
+ "doing": [
+  "idle: D34 needs dev"
+ ],
+ "done": [
+  "D1 first screen (brief 5 tagline)",
+  "D10 PrompTugal bar",
+  "D14 no dead ends (404 helps)",
+  "session key made (design.1.fringe-dinis in data/keys.json)",
+  "D21 Lisbon Tech Fringe: name, PT.news stamp, wordmark, favicon, one-line header (037ba4a)",
+  "12:5x wake: header checked at 390 px on /, /now/, /programme/, /graph/, /how/, /join/, /organisers/, an event page: no sideways scroll, no errors",
+  "D24 design A, the programme: in the lab frame, /?design=a and /designs/a/, dark and keyboard checked",
+  "D28 first version (home: today in Lisbon, roles, now strip, cards); 14:00 addendum applied: chips under 3 events fold into Elsewhere in Lisbon on home and /programme/; organiser on each home card links to its page",
+  "D28: design.2's Now/Next hour/Tonight strip (nowstrip.mjs) wired into the home, replacing my counters; My day stars visible on cards",
+  "D28: design.3's city map in the home (dots follow the role filter), card fields link to ontologist.1's /o/ /n/ /f/ pages",
+  "D36 (and D16): Tell us link on every event page, event pre-filled on /tip/",
+  "abp whoami run (security finding 28): ~/.abp/whoami = design.1.fringe@PrompTugal.dinis",
+  "15:5x wake: home re-checked at 390 px (no sideways scroll, no errors; strip, map, cards fine); no new design brief",
+  "16:2x: no Luma pictures (work/49): home cards are organiser tiles (two-letter initials, kind, start time, family colours); checked with 0 images, nothing breaks; unknown organisers show a dot and Organiser not named",
+  "D37 home: Online and Cancelled-or-moved one tap from the first screen, list folded, page 8939 px",
+  "D38: B's counts line on the home (14 on now, 10 within the hour, 2 online, 3 cancelled); asks usability.1 to re-score D vs B",
+  "17:5x wake: no new brief; home re-checked at 390 px (no errors, no sideways scroll)",
+  "18:5x wake: no new brief or design task; home re-checked at 390 px (counts line, no errors, no sideways scroll)",
+  "19:5x wake: no new brief or design task; home re-checked at 390 px (no errors, no sideways scroll)",
+  "20:5x wake: no new brief; home re-checked at 390 px (no page errors, no sideways scroll); D41 (console error from the ipapi.co lookup in assets/obs/obs.js, lane dev, work/21) left to dev",
+  "21:2x: abp whoami re-run (security finding 44): ~/.abp/whoami = design.1.fringe@PrompTugal.dinis",
+  "21:5x wake: no new brief or design task; home re-checked at 390 px (no errors, no sideways scroll)",
+  "22:5x wake: no new brief or design task; home re-checked at 390 px (no errors, no sideways scroll)",
+  "23:5x wake: no new brief or design task; home re-checked at 390 px (no errors, no sideways scroll). Note: the home builds Today from the build date, so after 00:00 UTC it needs a rebuild (CI on push) to roll to Thursday",
+  "06:5x Thu 12 Nov wake (brief 0041, so the home is right at 07:00): home built for Thursday 12 November, 68 events, kick line, counts, map, cards render; 390 px no sideways scroll, no JS errors, page 5964 px. Now 0 at 06:54 is right (first events start later)",
+  "07:2x Thu (lead, advice 0652): (1) the read line carries the date from read_at on the home, /now/, every event page and readLine: 'Status last checked Wednesday 11 November, 11:23 to 17:22 UTC; check the organiser's page before you go.' (new admin/build/readline.mjs; never says today); (2) storm: already one quiet line at y 5039 of 6042 px at 390 px (3198 of 3882 at 1280), first screen is Thursday's programme; no change needed. 390 and 1280 px: no sideways scroll, no JS errors",
+  "07:5x wake: no new brief or design task; home re-checked at 390 px",
+  "08:5x wake: no new brief or design task; home re-checked at 390 px",
+  "09:2x Thu (lead, advice 0852 item 2): the read line is two facts with times from the data: 'Times confirmed in the organisers' calendar feeds today at 09:11 UTC (66 of 68 events seen); cancellations and notes last checked Wednesday 11 November, 11:23 to 17:22 UTC; check the organiser's page before you go.' on the home and /now/; each event page: 'Time confirmed in the organiser's calendar feed <today|day> at <seen_at> UTC; cancellation and notes last checked <day, read_at> UTC...' (falls back to the read line when an event has no seen_at). admin/build/readline.mjs. 390 and 1280 px: no sideways scroll, no JS errors. Caveat: 'today' is the build day, so a page built Thursday and read Friday says today until the next build",
+  "09:5x wake: no new brief or design task; home re-checked at 390 px",
+  "10:5x wake: no new brief or design task; home re-checked at 390 px",
+  "10:5x: fixed a bug in my home: the 'Earlier today' list (#hm-past) carried the hidden attribute but my display:grid CSS overrode it, so past events were always shown and the page grew through the day (5964 to 8304 px). [hidden] now wins; page 6435 px at 390 px with 12 cards; Show all and Earlier today buttons both work; no JS errors",
+  "11:5x wake: no new brief or design task; home re-checked at 390 px: 6465 px, stable after the hidden-list fix",
+  "12:5x wake: no new brief or design task; home re-checked at 390 px: 6442 px, stable",
+  "13:5x wake: no new brief or design task; home re-checked at 390 px: 6465 px, stable",
+  "14:5x wake: no new brief or design task; home re-checked at 390 px: 6462 px, stable",
+  "15:5x wake: no new brief or design task; home re-checked at 390 px: 6495 px, stable",
+  "16:5x wake: no new brief or design task; home re-checked at 390 px: 6427 px, stable",
+  "17:5x wake: no new brief or design task; home re-checked at 390 px: 6359 px, 67 events (one fewer than before), stable"
+ ],
+ "next": [
+  "take what the lead routes; D16 waits on work/06"
+ ],
+ "asks": [
+  "lead: ABP R6 notes build.mjs is dev.2s shared file; I could not send the change to its inbox (sgit-ai not installed here). Entity-page links for place and event on cards wait for ontologist.1s pages.",
+  "lead/dev: .github/workflows has no schedule trigger, so the home (Today in Lisbon) only rolls to the next day on the next push after 00:00 UTC; a cron deploy at 00:05 UTC and hourly would keep it right."
+ ]
+}

@@ -1,0 +1,69 @@
+{
+  "agent": "researcher.2.fringe@PrompTugal.dinis",
+  "by": "researcher.2.fringe@PrompTugal.dinis",
+  "updated": "2026-11-12T18:11Z",
+  "started_by": "conductor.fringe@PrompTugal.dinis, at Dinis's word (brief 4)",
+  "wake": "hourly at :10 (set by the lead) until Friday 13 November",
+  "branch": "dev",
+  "state": "working",
+  "doing": [
+    "work/24 loop switched to the calendars' iCal feeds (the lead's Luma hold, 16:25 UTC): no automated loop over Luma event pages; single pages only at a person's pace"
+  ],
+  "done": [
+    "11:55 UTC wake 1: 61 existing Luma events re-read (times unchanged; 1 change: Kuma H2H 2.0 now listed as an online Zoom event); the 7 PTW Palace Wednesday sessions are still 404 on Luma; 125 Luma links from PTW's feed (10 Nov) that we lacked were read: 102 live, 23 404. 94 live events (11 to 14 Nov) added, 164 events in all",
+    "12:15 wake 2: 156 Luma re-read, calendars read, 7 added. 12:25 session key. 12:40 to 12:56: lane business (49), size major/community, second-opinion checks (times, Yorkseed, AI Engineers lunch, Elevon)",
+    "13:16 wake 4: 131 Luma events (11 to 12 Nov) re-read: no time changes, 1 new 404 (Redefining investment and innovation); the 4 Luma calendars show nothing new; Eventbrite Lisbon Web Summit search read: 6 new events added (Degens Hangout is marked Cancelled, UX Talks postponed). 177 events",
+    "13:27 UTC: removed the 6 Eventbrite events I added at 13:18 (Eventbrite terms forbid automated reading; I had checked only robots.txt: my error). Applied the lead's one rule for \"unknown\": 99 events listed as scheduled with no change note are now status on, label evidence. Stopped reading Meetup, Eventbrite and Partiful.",
+    "13:35 UTC neighbourhood field on 47 events (page-named areas only). 13:40 Storm Summit (stormsummit.app) added from its public page; outreach.1 told through its inbox.",
+    "2026-11-11T14:01Z UTC work/44 done: cost, in_lisbon, personas, umbrella, neighbourhood on every event; tips lane drained (test tip received)",
+    "14:15 UTC wake: 131 Luma events (11 to 12 Nov) re-read, no time changes; 1 new 404 (Side Events Guide IRL); the 23 earlier 404s unchanged; 4 Luma calendars: 1 new event (Enchant Afterparty); tips lane: nothing new; finding 10 (staaake) settled",
+    "15:14 UTC wake: 134 Luma events (11 to 12 Nov) re-read, no time changes, no new 404s, the 24 404s unchanged; 4 Luma calendars: 2 new events (Women in Tech, Coffee & Connect); tips lane: nothing new; read briefs 14:27, 14:40, 14:54 (nothing for me beyond tips-status.json, which is in my grant)",
+    "15:23 UTC privacy fix (advice 14:53 item 2): of 63 events whose place came from the PTW feed, the organiser's own Luma page itself shows the address on 59 (mode shown, public); the 4 others: 3 withheld (page hides the address), 1 names only a venue. My old text \"Luma page shows only the city\" was wrong (my reader took only the city field); corrected on 60 events.",
+    "16:14 UTC wake: 161 Luma events (11 to 13 Nov) re-read, no time changes or new 404s, 23 earlier 404s unchanged; 4 Luma calendars: 1 new event (Stranded, Networking & Drinks); tips lane: nothing new; inbox empty",
+    "16:25 UTC: stopped the hourly Luma page loop; read the iCal feeds of 3 Luma calendars: 111 of our events match with the same start time; 14 feed-only events not added (no event link or organiser in the feed)",
+    "16:27 UTC: saved the iCal feed reads as data/feeds/luma-ical.json (162 feed entries for 11 to 14 Nov, no description text), at the lead's ask",
+    "17:12 UTC wake (iCal only): 3 Luma feeds re-read, 154 entries, added 0, gone 8, changed 0; data/feeds/luma-ical.json refreshed; Valois cost corrected to EUR 40 at the door (ontologist.1's note, one page read to confirm); tips lane: nothing new",
+    "17:23 UTC: AltaIR Capital corrected (was cancelled/fact, stamped 16:13 without a re-check): now unknown/evidence, in_lisbon false; read the other 6 cancelled or moved Luma events once each, spaced, to confirm their notices are still on the page: all 6 still correct",
+    "17:24 UTC: ical_uid on 121 of 171 Luma events (matched by start time + name against the 3 feeds; the other 50 are on calendars we do not read, or have no feed entry); seed/status-check.py: a notice that STOPS counts as a change too; gave the Cyrillic-titled breakfast an ASCII id",
+    "18:11 UTC wake (iCal only): 3 feeds, 145 entries, 0 added, 0 changed; 9 dropped: 8 already started (as before), 1 not started (Supergrowth, Fri 13 Nov 14:30 PTW Palace) noted on its entry; data/feeds/luma-ical.json refreshed; tips lane nothing new; no HOLD.md",
+    "19:13 UTC wake (iCal only): 3 feeds, 144 entries, added 0, gone 1, changed 0; Side Events Guide IRL set unknown/evidence (page 404, status said on: Jose's conductor's note); Show What You Build end-time note (ontologist.1); tips lane nothing new",
+    "19:23 UTC (advisor note 5): read_at now means the status was re-checked; seen_at added (last showed); read_at set back on 172 Luma entries; ical_uid cut before the @ on 121; reply in work/13",
+    "20:11 UTC wake (iCal only): 143 feed entries, added 0, gone 1, changed 0; seen_at 20:11 set on 110 events still in the feeds (read_at untouched: the feed does not re-check a status); inbox: 4 messages already read; tips lane nothing new",
+    "21:11 UTC wake (iCal only): 141 feed entries, added 0, gone 2, changed 2; seen_at set on 108 events; inbox and tips lane: nothing new",
+    "22:11 UTC wake (iCal only): 141 feed entries, added 0, gone 0, changed 0; seen_at set on 108 events; inbox and tips lane: nothing new",
+    "23:11 UTC wake (iCal only): 141 feed entries, added 0, gone 0, changed 0; seen_at on 108; inbox and tips: nothing new",
+    "00:12 UTC Thu wake (iCal only): 141 feed entries, added 0, gone 0, changed 0; seen_at on 108; inbox and tips: nothing new",
+    "06:13 UTC Thu 06:1x wake: storm API read (Thursday morning: Lisbon green, nothing elsewhere; Day 3 per Web Summit's 10 Nov notice, not re-confirmed) in storm_thursday; iCal feeds 141 entries, added 0, gone 0, changed 0; seen_at on 108; inbox and tips: nothing new",
+    "07:12 UTC Thu wake (iCal only): 140 feed entries, added 0, gone 1, changed 0; seen_at on 107; inbox and tips: nothing new",
+    "07:22 UTC: the lead confirms data/feeds/** and work/13 are in my grant (architect.1 round 4) and that the 4 inbox messages are the ones I already read; the two asks are removed",
+    "08:12 UTC Thu wake (iCal only): 139 feed entries, added 0, gone 1, changed 0; seen_at on 107; inbox and tips: nothing new",
+    "09:11 UTC Thu wake (iCal only): 133 feed entries, added 0, gone 6 (start already passed except: []), changed 2; seen_at on 104; inbox and tips: nothing new",
+    "10:11 UTC Thu wake (iCal only): 133 feed entries, added 0, gone 0, changed 1; seen_at on 104; inbox and tips: nothing new",
+    "11:13 UTC wake (iCal only): 133 feed entries, added 0, gone 0 (all already started), changed 0; seen_at on 104; inbox and tips: nothing new",
+    "12:14 UTC wake (iCal only): 132 feed entries, added 0, gone 1 (all already started), changed 0; seen_at on 104; inbox and tips: nothing new",
+    "13:15 UTC wake (iCal only): 130 feed entries, added 0, gone 2 (all already started), changed 0; seen_at on 102; inbox and tips: nothing new",
+    "13:25 UTC (the lead's carried item): the empty id '2026-11-11-' was the Russian-language founders' breakfast, 'Завтрак русскоязычных фаундеров' (https://luma.com/pxwl1esg, 11 Nov 12:00 UTC): its Cyrillic title made an empty slug. It was given the id 2026-11-11-russian-language-founders-breakfast in ebfb686 (17:24 UTC Wed); the old page /e/2026-11-11-/ answers from data/graph/seen.json and says 'This event has a new page' (checked in a clean build)",
+    "13:26 UTC: the uid in data/feeds/luma-ical.json cut before the @ too (events.json already was); my feed script now writes it that way",
+    "14:14 UTC wake (iCal only): 129 feed entries, added 0, gone 1 (not yet started: ['EIT Jumpstarter 2026 Awards Ce']), changed 0; seen_at on 101; inbox and tips: nothing new",
+    "15:13 UTC wake (iCal only): 129 feed entries, added 0, gone 0 (all already started), changed 0; seen_at on 101; inbox and tips: nothing new",
+    "16:14 UTC wake (iCal only): 131 feed entries, added 2 (Russian-Speaking Founders Breakfast, Fri 13 Nov 10:00; L’APérO De Gigi, Fri 13 Nov 19:00), gone 0, changed 2 (Dev House feed now carries an address; its page withholds it, so we keep withholding); seen_at on 101; inbox and tips: nothing new",
+    "17:12 UTC wake (iCal only): 129 feed entries, added 0, gone 2 (all already started), changed 1; seen_at on 99; inbox and tips: nothing new",
+    "17:12 UTC wake (iCal only): 129 feed entries, added 0, gone 2 (both started at 17:00), changed 1 (Agents Are Ready: now 17:30 to 20:00 UTC, event updated, evidence); inbox and tips: nothing new",
+    "18:11 UTC wake (iCal only): 124 feed entries, added 0, gone 5 (all already started), changed 0; seen_at on 96; inbox and tips: nothing new",
+    "18:11 UTC wake (iCal only): 124 feed entries, added 0, gone 5 (all started by 18:00), changed 0; seen_at refreshed; inbox and tips: nothing new"
+  ],
+  "next": [
+    "19:10 UTC wake: read the 3 iCal feeds only",
+    "Dinis: the stored wake prompt still says \"re-read stale events at source\"; I follow the lead's Luma hold instead"
+  ],
+  "asks": [
+    "Dinis: 2 new Friday events appear in the Luma feeds (Russian-Speaking Founders Breakfast; L’APérO De Gigi). The feed gives no URL, organiser or cost, so I have not listed them. May I read each page once, at a person's pace?"
+  ],
+  "storm_thursday": {
+    "read_utc": "2026-11-12T06:13:00Z",
+    "source": "https://storm-charles.promptugal.news/api/v1/ (index.json, built 06:09:34 UTC; 2026-11-10-storm-charles/weather/warnings.json)",
+    "ipma_lisbon": "IPMA warnings for the Lisbon district: peak level green, no non-green warning in force, and no red or orange warning elsewhere, read at source 05:23:50 UTC (fact, from the storm API)",
+    "web_summit": "The incident headline is still Web Summit's notice of 10 Nov 19:09 UTC: Day 2 (Wednesday) called off, Day 3 (Thursday) 'aims to proceed as planned' (read at source by the storm site 10 Nov 20:58 UTC; not re-confirmed on Thursday morning by us)",
+    "note": "The storm API's watch/websummit.json was last read 10 Nov 21:34 UTC, so it says nothing newer; follow IPMA, ANEPC and the organisers' official pages"
+  }
+}

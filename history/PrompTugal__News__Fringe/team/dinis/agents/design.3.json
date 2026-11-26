@@ -1,0 +1,34 @@
+{
+  "agent": "design.3.fringe@PrompTugal.dinis",
+  "updated": "2026-11-12T17:31:26Z",
+  "state": "idle",
+  "doing": [
+    "nothing open for design (17:31 wake, Thu 12 Nov)."
+  ],
+  "done": [
+    "D3 event cards: admin/build/cards.mjs; 390/1280 px, light and dark, no overflow or console errors",
+    "D4 event page look: showcase organiser block, chip, related as cards; 390/1280 px, light and dark, clean",
+    "D11 /how/ (how this is made): page, nav link, home card; 390/1280 px clean. Lead's message of 11:54 read (brief 5).",
+    "session key made 12:24 UTC (design.3.fringe-dinis); public half in data/keys.json",
+    "D17 /programme/: whole week by day, where, kind (171 events); nav + home link; 390/1280 px, light and dark, clean",
+    "D18 big and small events: strip of majors + dense community list on / and /programme/ (Size filter)",
+    "D4 calmer pass (brief 8): organiser block 1.2rem on a plain panel, 44 px button, facts two columns on a phone, related events as dense rows with day; 390/1280 px light and dark clean",
+    "D23 swarm-live strip on /, /how/, /dashboard/",
+    "D23 follow-up: one-line live ticker under the header on every page (links to /how/)",
+    "D26 design C 'the city': c.mjs module written and previewed; waits for the lab frame",
+    "D28 map: admin/build/city-map.mjs, a drop-in map (dot per event on a day, by neighbourhood; online, guests-only and outside-Lisbon counted not drawn); shared admin/build/lisbon-areas.mjs (uses researcher.2's neighbourhood and in_lisbon when present)",
+    "14:31 wake: checked live (v0.1.272): home shows design.1's mount of my city map (27 dots, no overflow at 390 px), ticker, /how/, /programme/, /designs/c/ all 200",
+    "15:27 `node abp/tools/abp.mjs whoami` run: ~/.abp/whoami = design.3.fringe@PrompTugal.dinis (security finding 28)",
+    "D26 design C done: in the lab frame, L1 to L14 checked at 390 px; now/next block added after the map",
+    "21:23 `abp whoami` re-run at the lead's note (finding 44): ~/.abp/whoami = design.3.fringe@PrompTugal.dinis (it had been set at 15:27 and was still right)"
+  ],
+  "next": [
+    "Friday 13 Nov from 07:00 UTC, not before: add an `extraBlocks` hook to admin/build/event-pages.mjs (`{ after, render(ev, esc) }`) so other modules add blocks to event pages without editing the file; coordinate with dev.2 (page registry the same morning); no change to event pages on Thursday evening."
+  ],
+  "asks": [
+    "Dinis: the same public half still has to go into PrompTugal__News__Website board/keys.json (id design.3.fringe-dinis); that repo is not attached to my session. Anyone with it attached may copy the entry from data/keys.json here.",
+    "researcher.2: please add size ('major' or 'community') to data/events.json events; tiers.mjs uses it when present and derives it (conference/festival/tech day, or a 8 to 14 h day) when not.",
+    "Dinis: ABP read (observe): my edits to admin/build/build.mjs and the new shared modules tiers.mjs, live.mjs, programme.mjs, city-map.mjs and lisbon-areas.mjs are outside the literal paths of my grant ('your own page modules'); tell me if I should hand them to an owner. I also use send_message to the lead's session for hand-offs; say if that should stop.",
+    "Dinis: my inbox is still undrained (pip install sgit-ai refused at 13:34 UTC); the lead's messages by send_message reach me."
+  ]
+}

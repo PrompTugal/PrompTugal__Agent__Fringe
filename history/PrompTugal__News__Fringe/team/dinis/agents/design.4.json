@@ -1,0 +1,52 @@
+{
+  "agent": "design.4.fringe@PrompTugal.dinis",
+  "updated": "2026-11-12T17:46Z",
+  "state": "quiet: nothing open for design.4; D44 live",
+  "doing": [],
+  "done": [
+    "D8: admin/build/tokens.css (design E ported), wired into build.mjs, graph colours moved to tokens; checked 390/1280, light/dark",
+    "D5: one nav (Today, Map, Traffic, Join; Now and Organisers when they ship), aria-current, no JS",
+    "D9: Lisbon palette tokens, wordmark, azulejo pattern, hero (identity.mjs)",
+    "D20 taste pass: first event at y=240 px on 390 (before ~750); screenshots /tmp/claude-0/shots/d20-before.png and d20-after.png; WhatsApp line (hidden until data/links.json whatsapp_group)",
+    "D7: /graph/ phone first view (graph first, legend, filters folded, fewer labels); D19 closed with evidence",
+    "D22 first push: brand v2.0 tokens, fonts linked from promptugal.news, numbered kickers, green rules; screenshots /tmp/claude-0/shots/d22-before-390.png, d22-after-390.png, d22-after-1280.png",
+    "Lead's two defects: independence line now in the page column in full at every width; old chips, count and duplicate On-now cards folded into the timeline header (Tonight, Online, Tomorrow, All events + one count line); screenshots /tmp/claude-0/shots/d-1914b.png, d-390b.png",
+    "Live-check fixes: count small on one line; nav fades at the right edge as a scroll cue; at >=1100 px the timeline and the big-events list sit side by side (home-top grid); screenshots /tmp/claude-0/shots/d-1440b.png, d-390c.png",
+    "D30 /storm/ and D31 The agentic team nav (14:1x UTC)",
+    "D35 nav state, 404 offer, tab-row scroll hint (14:5x UTC)",
+    "abp whoami run (hook knows this session); D22 closed after a dark-mode check",
+    "D27 closed: d is the live home page by the lab's design; audited against L1-L14, 44 px hit areas for header links",
+    "16:5x wake: read briefs to 16:30 (nothing for design); filed D37 from usability.1's scorecard (home is design.1's now)",
+    "17:4x wake: nothing new for design; live pages /, /storm/, /how/, /designs/ checked",
+    "Checked Angelo's tokens.css edit (9a44247): --t-festival joins the graph-node kinds; it fits; made the dark value var(--red) (#f07278) so it follows the brand instead of a one-off #ff8a8f. Token changes: send them to design.4 (identity.mjs and tokens.css are in design.4's grant).",
+    "D39 online now and next; D40 counts agree (home.mjs)",
+    "19:4x wake: nothing new; live /, /storm/, /how/ checked",
+    "20:4x wake: nothing new for design; live / and /storm/ 200",
+    "21:2x: abp whoami run before the push (lead, finding 44)",
+    "21:3x home.mjs and nowstrip.mjs: status unknown is never 'on now' (no badge, not counted, not in the Now strip, listed after the others with a 'Status unknown' tag); an event that spans days shows its dates ('Wed 11 14:30 - Thu 12 17:30 UTC'); Playwright 390 and 1280: no console errors, no sideways scroll",
+    "21:4x wake: nothing new; live home shows the 'Status unknown' tag (fix live)",
+    "22:5x D42: Tomorrow in place of an empty Tonight (nowstrip.mjs); page height still ~16000 px (not addressed)",
+    "23:4x wake: nothing new; live / and /storm/ 200",
+    "00:2x home.mjs: today's list now includes events that started earlier and are still running (after midnight), so the counts line and the Now tab agree; Playwright at the real clock 00:23 UTC (3 on now = Now 3) and at a faked 07:00 UTC (1 on now, 2 start within the hour = Now 1); no console errors; checked at 390 px",
+    "D43: 'Evening from 17:00, how to get in' control on the home (Open, Register, Approval or full), from the join field as it is; unknown in none",
+    "07:4x wake: nothing new; live home carries the D43 control",
+    "08:4x wake: nothing new; live / and /storm/ 200",
+    "09:4x wake: nothing new; live / and /storm/ 200",
+    "10:4x wake: nothing new; live / and /storm/ 200",
+    "11:4x wake: nothing new; live / and /storm/ 200",
+    "12:4x wake: nothing new; live / and /storm/ 200",
+    "13:4x wake: nothing new; live / and /storm/ 200",
+    "14:4x wake: nothing new; live / and /storm/ 200",
+    "15:4x wake: nothing new; live / and /storm/ 200",
+    "16:4x D44: paused banner to two lines (40 px); buttons end at y 696",
+    "17:4x wake: nothing new; live / and /storm/ 200; the two-line banner is live"
+  ],
+  "next": [
+    "wait for the answer on L10; take any open D-task"
+  ],
+  "asks": [
+    "Dinis (or the lead): lab check L10 says tap targets at least 44 px and text at least 16 px on a phone. The taste pass (brief 8: small, calm, 'with taste') and the family's Mono labels use 11 to 13 px, and about 260 inline links are under 44 px. Relax L10 for labels and inline links, or tell design to enlarge them?",
+    "conductor.fringe (lead): the banner says the team is paused and no agent is updating the site since 15:15 UTC, yet agents (me included) keep waking and committing, and there is no HOLD.md (R11). If agents should stop, say so and add HOLD.md; if only the data is frozen, the banner could say that. I shrank the banner (D44) and changed no wording of fact."
+  ],
+  "key": "design.4.fringe-dinis (sha256:6f3ef21f39a15dc6; signing sha256:57270ffef26ad7c6), public half in data/keys.json"
+}

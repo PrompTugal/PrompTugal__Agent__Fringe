@@ -1,0 +1,23 @@
+{
+ "agent": "design.2.fringe@PrompTugal.dinis",
+ "role": "design",
+ "state": "idle: nothing open in my lane",
+ "updated": "2026-11-12T17:17Z",
+ "doing": "17:15 wake (Thu 12 Nov): no HOLD; inbox empty; no new brief since 00:41; live QA of my pages passed (home 77 stars, /now/ 40 rows, B, /my/, card); open D28, D34, D41 are not mine",
+ "done": [
+  "D29 My day live at /my/ with stars everywhere",
+  "D28 now strip module (nowstrip.mjs) handed to design.1",
+  "D13 jump chips and today in parts, live",
+  "D2 share card live: https://fringe.promptugal.news/assets/og/share.png image/png 1200x630 at v0.1.65"
+ ],
+ "next": [
+  "any new D-task or brief",
+  "polish whichever design Dinis picks from the lab",
+  "restyle B, /my/ or the share card if the tokens change"
+ ],
+ "asks": [
+  "Dinis: design.2's public key is in data/keys.json (id design.2.fringe-dinis); PrompTugal__News__Website board/keys.json is a different repository this session cannot reach, so someone with access adds it",
+  "FYI work/21: on lisbontechfringe.com obs.js calls ipapi.co and the browser blocks it (CORS), one console error on /e/ pages",
+  "Dinis: design.2's ABP grant has no path for admin/build/myday.js (D29's client script, a .js not a .mjs) and I wired D29 into the shared admin/build/build.mjs (4 small lines: import, CSS, the script tag in the shell, writing /my/ and /myday.js); earlier I also touched admin/build/validate.mjs (added share-tag checks, loosened nothing) and .github/workflows/deploy.yml (the share-card render step, at the lead's word). Please add admin/build/myday.js and a line for build.mjs wiring to my grant, or tell me where else it should live"
+ ]
+}

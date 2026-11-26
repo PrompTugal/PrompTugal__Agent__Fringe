@@ -1,0 +1,56 @@
+{
+  "agent": "capture.1.fringe@PrompTugal.dinis",
+  "by": "capture.1.fringe@PrompTugal.dinis",
+  "updated": "2026-11-12T17:28Z",
+  "started_by": "conductor.fringe@PrompTugal.dinis at Dinis's word (brief 4, ROLES.md)",
+  "session": "session_01Kw9UwBDiRApLwAnCoij2Db",
+  "key": "capture.1.fringe-dinis (data/keys.json)",
+  "wake": "hourly at :25 (set by the lead)",
+  "state": "working (Luma blocked)",
+  "doing": [
+    "work/27: pointers pushed under the lead's names (data/capture-index*.json, data/capture-vaults.json, admin/capture-sealed/); /evolution/ live from them"
+  ],
+  "done": [
+    "normal sgit vault cap-001 (u4f3pl6f) on dev.send.sgraph.ai; data/captures/vaults.json; key outside git, a copy sealed to the lead (data/captures/sealed/cap-001.json)",
+    "admin/tools/capture.mjs: 390 and 1280 px of our pages, each organiser page at 1280 px, text and extracted fields; never websummit.com or a login; rotates to a new vault at 15,000 files",
+    "admin/build/evolution.mjs and /evolution/ (timeline from the index, no images)",
+    "12:25 wake: second run captured into vault u4f3pl6f; pointers pushed",
+    "PRIVACY (lead's message, finding 21), 2026-11-11T13:26Z: no read key was ever published. capture.mjs now: Luma event pages only (Meetup, others skipped); images hidden, screenshot cropped to the top 480 px; page text cut before 'Hosted by/Going/guests/attendees'; each event page once a day; event captures deleted after 13 Nov. cap-001 (u4f3pl6f) marked private forever and its organiser-page captures deleted from its working tree (history stays in that private vault); new vault cap-002 (b1pw4zrm) is active for safe captures.",
+    "2026-11-11T13:28Z wake: site still 404 (GitHub Pages), so no run of our pages; sample of 3 Luma pages checked: at 480 px a host name showed under 'Hosted By', so the crop is now 400 px (cover and title only), test captures deleted unpushed. No read key published.",
+    "2026-11-11T14:03Z: work/45: admin/tools/covers.mjs; covers vault covers-001 (9cf4rcf3); 62 of today's 65 Luma events have their og:image cover in it (3 pages 404); data/event-images.json maps them. Read key NOT yet published: see asks.",
+    "2026-11-11T14:03Z: lead's addendum (screenshot per event): covers.mjs now also takes og:image from organisers' own sites; Meetup, Eventbrite, Partiful and websummit.com get NO automated capture.",
+    "2026-11-11T14:39Z: 14:25 wake: run 2026-11-11-14 captured 194/194 into private vault cap-002 (b1pw4zrm), our pages from the new origin (admin/site.json) and Luma headers (cropped 400 px, no guest text). Covers: 63 mapped. Read keys still NOT published (classifier refused; see first ask).",
+    "2026-11-11T15:28Z: 15:25 wake: run 2026-11-11-15 captured 32/32 (our pages only: event pages are once a day) into private cap-002; covers 68 mapped (5 new, 4 failed: 404 pages); abp whoami run. Read keys still unpublished.",
+    "2026-11-11T16:26Z: LEAD'S ORDER (Luma Terms): the three old vaults (u4f3pl6f, b1pw4zrm, 9cf4rcf3: Luma covers, Luma page screenshots, their history) are DELETED from dev.send.sgraph.ai and from this machine. Own-site captures of our pages copied to new cap-003 (to3xs2w3); the one organiser-own cover (Storm Summit) to covers-002 (mu9y0eqq). capture.mjs and covers.mjs hard-block luma.com, lu.ma, lumacdn.com, Meetup, Eventbrite, Partiful, websummit.com; organiser-page screenshots are off. Pointers cleaned: only our own pages remain.",
+    "2026-11-11T16:28Z: 16:25 wake: run 2026-11-11-16 captured 28/28 of our own pages into cap-003 (to3xs2w3); no hold, inbox empty, no new brief for capture; Luma and organiser pages stay off.",
+    "2026-11-11T17:26Z: 17:25 wake: run 2026-11-11-17 captured 28/28 own pages into cap-003 (to3xs2w3, 420 files); no hold; brief 1630 (R5, R8, R9 enforced) noted, nothing changes for me; Luma and organiser pages stay off.",
+    "2026-11-11T18:25Z: 18:25 wake: run 2026-11-11-18 captured 28/28 own pages into cap-003. Lead's/security's request (remove the 11:00 and 12:00 runs from u4f3pl6f): already done at 16:2x, the whole vault u4f3pl6f was deleted (not just those runs), so nothing to re-seal; recorded in data/capture-index.json 'removed' (run ids and counts, no names).",
+    "2026-11-11T19:27Z: 19:25 wake: run 2026-11-11-19 captured 28/28 own pages into cap-003 (to3xs2w3, 588 files); no hold, no new brief, inbox empty.",
+    "2026-11-11T20:27Z: 20:25 wake: run 2026-11-11-20 captured 28/28 own pages into cap-003 (to3xs2w3, 672 files); no hold, no new brief, inbox empty.",
+    "2026-11-11T21:23Z: lead's 21:2x message: abp whoami run again (capture.1.fringe@PrompTugal.dinis). SECURITY FINDING 21 is closed on my side: the pre-fix runs of 11:00 and 12:00 lived in vault u4f3pl6f, which was DELETED entirely (remote and local, history included) at 16:2x UTC with b1pw4zrm and 9cf4rcf3 under the Luma order; the event-page records are gone from data/capture-index*.json too (see its 'removed' note, run ids and counts, no names). Since then only our own pages are captured (cap-003, to3xs2w3). Please verify against data/capture-vaults.json (status deleted).",
+    "2026-11-11T21:32Z: 21:25 wake: run 2026-11-11-21 captured 28/28 own pages into cap-003 (to3xs2w3, 756 files); no hold, no new brief, inbox empty.",
+    "2026-11-11T22:26Z: 22:25 wake: run 2026-11-11-22 captured 28/28 own pages into cap-003 (to3xs2w3, 840 files); no hold, no new brief, inbox empty.",
+    "2026-11-11T23:27Z: 23:25 wake: run 2026-11-11-23 captured 28/28 own pages into cap-003 (to3xs2w3, 924 files); no hold, no new brief, inbox empty.",
+    "2026-11-12T00:27Z: 00:25 wake (12 Nov): run 2026-11-12-00 captured 28/28 own pages into cap-003 (to3xs2w3, 1008 files); no hold, no new brief, inbox empty.",
+    "2026-11-12T07:28Z: 07:25 wake (12 Nov): run 2026-11-12-07 captured 28/28 own pages into cap-003 (to3xs2w3, 1092 files); read the 00:41 brief (night hours: my wake runs 07:00 to 21:59 UTC only, the lead changed it); no hold, inbox empty.",
+    "2026-11-12T08:31Z: 08:25 wake: run 2026-11-12-08 captured 28/28 own pages into cap-003 (to3xs2w3, 1176 files); no hold, no new brief, inbox empty.",
+    "2026-11-12T09:27Z: 09:25 wake: run 2026-11-12-09 captured 28/28 own pages into cap-003 (to3xs2w3, 1260 files); no hold, no new brief, inbox empty.",
+    "2026-11-12T10:27Z: 10:25 wake: run 2026-11-12-10 captured 28/28 own pages into cap-003 (to3xs2w3, 1344 files); no hold, no new brief, inbox empty.",
+    "2026-11-12T11:27Z: 11:25 wake: run 2026-11-12-11 captured 28/28 own pages into cap-003 (to3xs2w3, 1428 files); no hold, no new brief, inbox empty.",
+    "2026-11-12T12:27Z: 12:25 wake: run 2026-11-12-12 captured 28/28 own pages into cap-003 (to3xs2w3, 1512 files); no hold, no new brief, inbox empty.",
+    "2026-11-12T13:27Z: 13:25 wake: run 2026-11-12-13 captured 28/28 own pages into cap-003 (to3xs2w3, 1596 files); no hold, no new brief, inbox empty.",
+    "2026-11-12T14:27Z: 14:25 wake: run 2026-11-12-14 captured 28/28 own pages into cap-003 (to3xs2w3, 1680 files); no hold, no new brief, inbox empty.",
+    "2026-11-12T15:27Z: 15:25 wake: run 2026-11-12-15 captured 28/28 own pages into cap-003 (to3xs2w3, 1764 files); no hold, no new brief, inbox empty.",
+    "2026-11-12T16:27Z: 16:25 wake: run 2026-11-12-16 captured 28/28 own pages into cap-003 (to3xs2w3, 1848 files); no hold, no new brief, inbox empty.",
+    "2026-11-12T17:28Z: 17:25 wake: run 2026-11-12-17 captured 28/28 own pages into cap-003 (to3xs2w3, 1932 files); no hold, no new brief, inbox empty."
+  ],
+  "next": [
+    "each hour: run capture.mjs, commit pointers, push",
+    "re-run on the 164-event list",
+    "when design lands /now/ and /changes/ they get captured automatically (404 pages are recorded as not captured)"
+  ],
+  "asks": [
+    "Dinis: no read key is published for any vault (none now needed urgently: covers are gone except one organiser-own image). Say if you want one for covers-002 or cap-003 (own pages only, now safe).",
+    "conductor.fringe: the vault key is sealed to your key in data/captures/sealed/cap-001.json (signed by mine). Please also add my key to PrompTugal__News__Website board/keys.json (I have no access to that repository)."
+  ]
+}

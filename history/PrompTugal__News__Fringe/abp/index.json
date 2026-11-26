@@ -1,0 +1,1329 @@
+{
+  "about": "Every agent's grant, flattened from abp/policies.json by node abp/tools/abp.mjs build: what /abp/ shows.",
+  "policy": "0.4.1",
+  "sha256": "ba68d63c6837477e",
+  "mode": "observe",
+  "agents": [
+    {
+      "agent": "conductor.fringe@PrompTugal.dinis",
+      "role": "lead",
+      "person": "dinis",
+      "account": "riskmandate-personal (Ultra)",
+      "branch": "dev",
+      "writes": [
+        "team/dinis/agents/conductor.json",
+        "team/dinis/agents/conductor.fringe.json",
+        "team/dinis/agents/conductor/**",
+        "data/keys.json (your own entry)",
+        "data/inboxes/<your key id>.json",
+        "work/NN-<item you own>.md",
+        "tasks/*/result-*.json",
+        "data/models-ledger.json",
+        "work/**",
+        "briefs/**",
+        "team/**",
+        "REALITY.md",
+        "BRIEF-CORRECTIONS.md",
+        "CLAUDE.md",
+        "ROLES.md",
+        "SWARM.md",
+        "JOIN.md",
+        "KICKOFF.md",
+        "README.md",
+        "sources.md",
+        "security/**",
+        "data/inboxes/**",
+        "data/inbox-counts.json",
+        "data/person-keys.json",
+        "data/links.json",
+        "data/places.json",
+        "admin/site.json",
+        ".gitignore",
+        "HOLD.md"
+      ],
+      "owns": [
+        "work/"
+      ],
+      "sends": [
+        "dev.send.sgraph.ai",
+        "pki.sgit.ai"
+      ],
+      "page": "abp/conductor.fringe@PrompTugal.dinis.md"
+    },
+    {
+      "agent": "architect.1.fringe@PrompTugal.dinis",
+      "role": "architect",
+      "person": "dinis",
+      "account": "riskmandate-personal (Ultra)",
+      "branch": "dev",
+      "writes": [
+        "team/dinis/agents/architect.1.json",
+        "team/dinis/agents/architect.1.fringe.json",
+        "team/dinis/agents/architect.1/**",
+        "data/keys.json (your own entry)",
+        "data/inboxes/<your key id>.json",
+        "work/NN-<item you own>.md",
+        "tasks/*/result-*.json",
+        "data/models-ledger.json",
+        "abp/**",
+        ".claude/**",
+        "data/architecture.json",
+        "admin/tools/architecture.mjs",
+        "admin/build/guidance.mjs",
+        "admin/build/abp-page.mjs",
+        "admin/build/architecture-page.mjs",
+        "CONTRIBUTING.md",
+        "guidance/**",
+        "data/runtimes.json",
+        "data/operating-model.json",
+        "docs/where-agents-run*",
+        "admin/build/operating-model.mjs",
+        "abp/reviews/**",
+        "tasks/**",
+        "data/run-reach.json",
+        "data/work-altitudes.json",
+        "docs/articles/**",
+        "admin/build/articles.mjs",
+        "docs/handoffs/**",
+        "data/altitude-runs.json",
+        "data/work-altitudes-*.json",
+        "briefs/*.md#notes-of-Dinis-in-its-session"
+      ],
+      "owns": [],
+      "sends": [
+        "dev.send.sgraph.ai",
+        "pki.sgit.ai",
+        "my-observability-deployment-cd4ce8.es.us-central1.gcp.cloud.es.io",
+        "my-observability-deployment-cd4ce8.kb.us-central1.gcp.cloud.es.io",
+        "openrouter.ai"
+      ],
+      "page": "abp/architect.1.fringe@PrompTugal.dinis.md"
+    },
+    {
+      "agent": "fable.fringe@PrompTugal.dinis",
+      "role": "advisor",
+      "person": "dinis",
+      "account": "riskmandate-personal (Ultra)",
+      "branch": "dev",
+      "writes": [
+        "team/dinis/agents/fable.json",
+        "team/dinis/agents/fable.fringe.json",
+        "team/dinis/agents/fable/**",
+        "data/keys.json (your own entry)",
+        "data/inboxes/<your key id>.json",
+        "work/NN-<item you own>.md",
+        "tasks/*/result-*.json",
+        "data/models-ledger.json",
+        "advice/**"
+      ],
+      "owns": [],
+      "sends": [
+        "dev.send.sgraph.ai",
+        "pki.sgit.ai"
+      ],
+      "page": "abp/fable.fringe@PrompTugal.dinis.md"
+    },
+    {
+      "agent": "observability.fringe@PrompTugal.dinis",
+      "role": "observability",
+      "person": "dinis",
+      "account": "riskmandate-personal (Ultra)",
+      "branch": "dev",
+      "writes": [
+        "team/dinis/agents/observability.json",
+        "team/dinis/agents/observability.fringe.json",
+        "team/dinis/agents/observability/**",
+        "data/keys.json (your own entry)",
+        "data/inboxes/<your key id>.json",
+        "work/NN-<item you own>.md",
+        "tasks/*/result-*.json",
+        "data/models-ledger.json",
+        "data/obs/**",
+        "data/geo/**",
+        "assets/obs/**",
+        "admin/obs/**",
+        "admin/tools/obs/**",
+        "admin/tools/agent-log.mjs",
+        "admin/tools/trace-event.mjs",
+        "admin/build/traffic.mjs",
+        "admin/build/activity.mjs",
+        "admin/build/worldmap.mjs"
+      ],
+      "owns": [
+        "admin/build/traffic.mjs"
+      ],
+      "sends": [
+        "dev.send.sgraph.ai",
+        "pki.sgit.ai"
+      ],
+      "page": "abp/observability.fringe@PrompTugal.dinis.md"
+    },
+    {
+      "agent": "design.1.fringe@PrompTugal.dinis",
+      "role": "design",
+      "person": "dinis",
+      "account": "riskmandate-personal (Ultra)",
+      "branch": "dev",
+      "writes": [
+        "team/dinis/agents/design.1.json",
+        "team/dinis/agents/design.1.fringe.json",
+        "team/dinis/agents/design.1/**",
+        "data/keys.json (your own entry)",
+        "data/inboxes/<your key id>.json",
+        "work/NN-<item you own>.md",
+        "tasks/*/result-*.json",
+        "data/models-ledger.json",
+        "admin/build/*.mjs (your own page modules)",
+        "admin/build/designs/**",
+        "admin/build/og/**",
+        "admin/build/tokens.css",
+        "assets/brand/**",
+        "assets/**",
+        "work/design/**",
+        "admin/build/*.js (your own page modules)",
+        "admin/build/identity.mjs",
+        "admin/build/programme.mjs",
+        "admin/build/designs/a.mjs"
+      ],
+      "owns": [],
+      "sends": [
+        "dev.send.sgraph.ai",
+        "pki.sgit.ai"
+      ],
+      "page": "abp/design.1.fringe@PrompTugal.dinis.md"
+    },
+    {
+      "agent": "design.2.fringe@PrompTugal.dinis",
+      "role": "design",
+      "person": "dinis",
+      "account": "riskmandate-personal (Ultra)",
+      "branch": "dev",
+      "writes": [
+        "team/dinis/agents/design.2.json",
+        "team/dinis/agents/design.2.fringe.json",
+        "team/dinis/agents/design.2/**",
+        "data/keys.json (your own entry)",
+        "data/inboxes/<your key id>.json",
+        "work/NN-<item you own>.md",
+        "tasks/*/result-*.json",
+        "data/models-ledger.json",
+        "admin/build/*.mjs (your own page modules)",
+        "admin/build/designs/**",
+        "admin/build/og/**",
+        "admin/build/tokens.css",
+        "assets/brand/**",
+        "assets/**",
+        "work/design/**",
+        "admin/build/*.js (your own page modules)",
+        "admin/build/og/**",
+        "admin/build/timeline.mjs",
+        "admin/tools/og-card.mjs",
+        "admin/tools/design-preview.mjs"
+      ],
+      "owns": [],
+      "sends": [
+        "dev.send.sgraph.ai",
+        "pki.sgit.ai"
+      ],
+      "page": "abp/design.2.fringe@PrompTugal.dinis.md"
+    },
+    {
+      "agent": "design.3.fringe@PrompTugal.dinis",
+      "role": "design",
+      "person": "dinis",
+      "account": "riskmandate-personal (Ultra)",
+      "branch": "dev",
+      "writes": [
+        "team/dinis/agents/design.3.json",
+        "team/dinis/agents/design.3.fringe.json",
+        "team/dinis/agents/design.3/**",
+        "data/keys.json (your own entry)",
+        "data/inboxes/<your key id>.json",
+        "work/NN-<item you own>.md",
+        "tasks/*/result-*.json",
+        "data/models-ledger.json",
+        "admin/build/*.mjs (your own page modules)",
+        "admin/build/designs/**",
+        "admin/build/og/**",
+        "admin/build/tokens.css",
+        "assets/brand/**",
+        "assets/**",
+        "work/design/**",
+        "admin/build/*.js (your own page modules)",
+        "admin/build/event-pages.mjs",
+        "admin/build/cards.mjs",
+        "admin/build/how.mjs",
+        "admin/build/designs/c.mjs"
+      ],
+      "owns": [
+        "admin/build/event-pages.mjs"
+      ],
+      "sends": [
+        "dev.send.sgraph.ai",
+        "pki.sgit.ai"
+      ],
+      "page": "abp/design.3.fringe@PrompTugal.dinis.md"
+    },
+    {
+      "agent": "design.4.fringe@PrompTugal.dinis",
+      "role": "design",
+      "person": "dinis",
+      "account": "riskmandate-personal (Ultra)",
+      "branch": "dev",
+      "writes": [
+        "team/dinis/agents/design.4.json",
+        "team/dinis/agents/design.4.fringe.json",
+        "team/dinis/agents/design.4/**",
+        "data/keys.json (your own entry)",
+        "data/inboxes/<your key id>.json",
+        "work/NN-<item you own>.md",
+        "tasks/*/result-*.json",
+        "data/models-ledger.json",
+        "admin/build/*.mjs (your own page modules)",
+        "admin/build/designs/**",
+        "admin/build/og/**",
+        "admin/build/tokens.css",
+        "assets/brand/**",
+        "assets/**",
+        "work/design/**",
+        "admin/build/*.js (your own page modules)",
+        "admin/build/tokens.css",
+        "admin/build/identity.mjs",
+        "admin/build/tiers.mjs"
+      ],
+      "owns": [
+        "admin/build/identity.mjs"
+      ],
+      "sends": [
+        "dev.send.sgraph.ai",
+        "pki.sgit.ai"
+      ],
+      "page": "abp/design.4.fringe@PrompTugal.dinis.md"
+    },
+    {
+      "agent": "dev.1.fringe@PrompTugal.dinis",
+      "role": "dev",
+      "person": "dinis",
+      "account": "riskmandate-personal (Ultra)",
+      "branch": "dev",
+      "writes": [
+        "team/dinis/agents/dev.1.json",
+        "team/dinis/agents/dev.1.fringe.json",
+        "team/dinis/agents/dev.1/**",
+        "data/keys.json (your own entry)",
+        "data/inboxes/<your key id>.json",
+        "work/NN-<item you own>.md",
+        "tasks/*/result-*.json",
+        "data/models-ledger.json",
+        "admin/build/**",
+        "admin/tools/**",
+        "admin/redirect/**",
+        "admin/series.txt",
+        "assets/**",
+        "api/**",
+        ".github/workflows/*.yml",
+        "data/second-opinion.json",
+        "data/organisers.json",
+        "data/person-keys.json",
+        "admin/site.json",
+        "CNAME",
+        "data/models-*.json",
+        "admin/build/swarm.mjs",
+        "admin/build/me.mjs",
+        "assets/me/**",
+        "assets/vendor/**",
+        "admin/tools/inboxes.py"
+      ],
+      "owns": [
+        "admin/build/swarm.mjs"
+      ],
+      "sends": [
+        "dev.send.sgraph.ai",
+        "pki.sgit.ai",
+        "openrouter.ai"
+      ],
+      "page": "abp/dev.1.fringe@PrompTugal.dinis.md"
+    },
+    {
+      "agent": "dev.2.fringe@PrompTugal.dinis",
+      "role": "dev",
+      "person": "dinis",
+      "account": "riskmandate-personal (Ultra)",
+      "branch": "dev",
+      "writes": [
+        "team/dinis/agents/dev.2.json",
+        "team/dinis/agents/dev.2.fringe.json",
+        "team/dinis/agents/dev.2/**",
+        "data/keys.json (your own entry)",
+        "data/inboxes/<your key id>.json",
+        "work/NN-<item you own>.md",
+        "tasks/*/result-*.json",
+        "data/models-ledger.json",
+        "admin/build/**",
+        "admin/tools/**",
+        "admin/redirect/**",
+        "admin/series.txt",
+        "assets/**",
+        "api/**",
+        ".github/workflows/*.yml",
+        "data/second-opinion.json",
+        "data/organisers.json",
+        "data/person-keys.json",
+        "admin/site.json",
+        "CNAME",
+        "data/models-*.json"
+      ],
+      "owns": [
+        "admin/build/build.mjs",
+        ".github/workflows/deploy.yml",
+        "admin/build/validate.mjs",
+        "api/v1/README.md"
+      ],
+      "sends": [
+        "dev.send.sgraph.ai",
+        "pki.sgit.ai",
+        "openrouter.ai"
+      ],
+      "page": "abp/dev.2.fringe@PrompTugal.dinis.md"
+    },
+    {
+      "agent": "researcher.2.fringe@PrompTugal.dinis",
+      "role": "researcher",
+      "person": "dinis",
+      "account": "riskmandate-personal (Ultra)",
+      "branch": "dev",
+      "writes": [
+        "team/dinis/agents/researcher.2.json",
+        "team/dinis/agents/researcher.2.fringe.json",
+        "team/dinis/agents/researcher.2/**",
+        "data/keys.json (your own entry)",
+        "data/inboxes/<your key id>.json",
+        "work/NN-<item you own>.md",
+        "tasks/*/result-*.json",
+        "data/models-ledger.json",
+        "data/events.json",
+        "seed/**",
+        "sources.md",
+        "api/v1/README.md",
+        "data/places.json",
+        "data/feeds/**",
+        "data/tips-status.json"
+      ],
+      "owns": [
+        "data/events.json"
+      ],
+      "sends": [
+        "dev.send.sgraph.ai",
+        "pki.sgit.ai"
+      ],
+      "page": "abp/researcher.2.fringe@PrompTugal.dinis.md"
+    },
+    {
+      "agent": "capture.1.fringe@PrompTugal.dinis",
+      "role": "capture",
+      "person": "dinis",
+      "account": "riskmandate-personal (Ultra)",
+      "branch": "dev",
+      "writes": [
+        "team/dinis/agents/capture.1.json",
+        "team/dinis/agents/capture.1.fringe.json",
+        "team/dinis/agents/capture.1/**",
+        "data/keys.json (your own entry)",
+        "data/inboxes/<your key id>.json",
+        "work/NN-<item you own>.md",
+        "tasks/*/result-*.json",
+        "data/models-ledger.json",
+        "data/capture-*.json",
+        "admin/capture-sealed/**",
+        "admin/tools/capture.mjs",
+        "admin/build/evolution.mjs",
+        "admin/tools/covers.mjs",
+        "data/event-images.json"
+      ],
+      "owns": [],
+      "sends": [
+        "dev.send.sgraph.ai",
+        "pki.sgit.ai",
+        "dev.send.sgraph.ai"
+      ],
+      "page": "abp/capture.1.fringe@PrompTugal.dinis.md"
+    },
+    {
+      "agent": "outreach.1.fringe@PrompTugal.dinis",
+      "role": "outreach",
+      "person": "dinis",
+      "account": "riskmandate-personal (Ultra)",
+      "branch": "dev",
+      "writes": [
+        "team/dinis/agents/outreach.1.json",
+        "team/dinis/agents/outreach.1.fringe.json",
+        "team/dinis/agents/outreach.1/**",
+        "data/keys.json (your own entry)",
+        "data/inboxes/<your key id>.json",
+        "work/NN-<item you own>.md",
+        "tasks/*/result-*.json",
+        "data/models-ledger.json",
+        "work/drafts/**",
+        "data/outreach*.json",
+        "admin/outreach-sealed/**",
+        "admin/tools/outreach.py"
+      ],
+      "owns": [],
+      "sends": [
+        "dev.send.sgraph.ai",
+        "pki.sgit.ai"
+      ],
+      "page": "abp/outreach.1.fringe@PrompTugal.dinis.md"
+    },
+    {
+      "agent": "usability.1.fringe@PrompTugal.dinis",
+      "role": "usability",
+      "person": "dinis",
+      "account": "riskmandate-personal (Ultra)",
+      "branch": "dev",
+      "writes": [
+        "team/dinis/agents/usability.1.json",
+        "team/dinis/agents/usability.1.fringe.json",
+        "team/dinis/agents/usability.1/**",
+        "data/keys.json (your own entry)",
+        "data/inboxes/<your key id>.json",
+        "work/NN-<item you own>.md",
+        "tasks/*/result-*.json",
+        "data/models-ledger.json",
+        "work/design/**",
+        "work/28-usability.md"
+      ],
+      "owns": [],
+      "sends": [
+        "dev.send.sgraph.ai",
+        "pki.sgit.ai"
+      ],
+      "page": "abp/usability.1.fringe@PrompTugal.dinis.md"
+    },
+    {
+      "agent": "researcher.fringe@PrompTugal.dinis",
+      "role": "researcher",
+      "person": "dinis",
+      "account": "the old lead's",
+      "branch": "dev",
+      "writes": [
+        "team/dinis/agents/researcher.json",
+        "team/dinis/agents/researcher.fringe.json",
+        "team/dinis/agents/researcher/**",
+        "data/keys.json (your own entry)",
+        "data/inboxes/<your key id>.json",
+        "work/NN-<item you own>.md",
+        "tasks/*/result-*.json",
+        "data/models-ledger.json",
+        "data/events.json",
+        "seed/**",
+        "sources.md",
+        "api/v1/README.md",
+        "data/places.json",
+        "data/feeds/**"
+      ],
+      "owns": [],
+      "sends": [
+        "dev.send.sgraph.ai",
+        "pki.sgit.ai"
+      ],
+      "page": "abp/researcher.fringe@PrompTugal.dinis.md"
+    },
+    {
+      "agent": "security.fringe@PrompTugal.dinis",
+      "role": "security",
+      "person": "dinis",
+      "account": "the old lead's",
+      "branch": "dev",
+      "writes": [
+        "team/dinis/agents/security.json",
+        "team/dinis/agents/security.fringe.json",
+        "team/dinis/agents/security/**",
+        "data/keys.json (your own entry)",
+        "data/inboxes/<your key id>.json",
+        "work/NN-<item you own>.md",
+        "tasks/*/result-*.json",
+        "data/models-ledger.json",
+        "security/**",
+        "HOLD.md"
+      ],
+      "owns": [],
+      "sends": [
+        "dev.send.sgraph.ai",
+        "pki.sgit.ai"
+      ],
+      "page": "abp/security.fringe@PrompTugal.dinis.md"
+    },
+    {
+      "agent": "dev.fringe@PrompTugal.dinis",
+      "role": "dev",
+      "person": "dinis",
+      "account": "the old lead's",
+      "branch": "dev",
+      "writes": [
+        "team/dinis/agents/dev.json",
+        "team/dinis/agents/dev.fringe.json",
+        "team/dinis/agents/dev/**",
+        "data/keys.json (your own entry)",
+        "data/inboxes/<your key id>.json",
+        "work/NN-<item you own>.md",
+        "tasks/*/result-*.json",
+        "data/models-ledger.json",
+        "admin/build/**",
+        "admin/tools/**",
+        "admin/redirect/**",
+        "admin/series.txt",
+        "assets/**",
+        "api/**",
+        ".github/workflows/*.yml",
+        "data/second-opinion.json",
+        "data/organisers.json",
+        "data/person-keys.json",
+        "admin/site.json",
+        "CNAME",
+        "data/models-*.json"
+      ],
+      "owns": [],
+      "sends": [
+        "dev.send.sgraph.ai",
+        "pki.sgit.ai",
+        "openrouter.ai"
+      ],
+      "page": "abp/dev.fringe@PrompTugal.dinis.md"
+    },
+    {
+      "agent": "dev.lead.fringe@PrompTugal.dinis",
+      "role": "dev",
+      "person": "dinis",
+      "account": "unknown",
+      "branch": "dev",
+      "writes": [
+        "team/dinis/agents/dev.lead.json",
+        "team/dinis/agents/dev.lead.fringe.json",
+        "team/dinis/agents/dev.lead/**",
+        "data/keys.json (your own entry)",
+        "data/inboxes/<your key id>.json",
+        "work/NN-<item you own>.md",
+        "tasks/*/result-*.json",
+        "data/models-ledger.json",
+        "admin/build/**",
+        "admin/tools/**",
+        "admin/redirect/**",
+        "admin/series.txt",
+        "assets/**",
+        "api/**",
+        ".github/workflows/*.yml",
+        "data/second-opinion.json",
+        "data/organisers.json",
+        "data/person-keys.json",
+        "admin/site.json",
+        "CNAME",
+        "data/models-*.json"
+      ],
+      "owns": [],
+      "sends": [
+        "dev.send.sgraph.ai",
+        "pki.sgit.ai",
+        "openrouter.ai"
+      ],
+      "page": "abp/dev.lead.fringe@PrompTugal.dinis.md"
+    },
+    {
+      "agent": "conductor.C.fringe@PrompTugal.dinis",
+      "role": "conductor",
+      "person": "dinis",
+      "account": "conductor.C's",
+      "branch": "dev",
+      "writes": [
+        "team/dinis/agents/conductor.c.json",
+        "team/dinis/agents/conductor.c.fringe.json",
+        "team/dinis/agents/conductor.c/**",
+        "data/keys.json (your own entry)",
+        "data/inboxes/<your key id>.json",
+        "work/NN-<item you own>.md",
+        "tasks/*/result-*.json",
+        "data/models-ledger.json",
+        "team/dinis/**",
+        "work/drafts/dinis/**",
+        "tasks/*/packet.json"
+      ],
+      "owns": [],
+      "sends": [
+        "dev.send.sgraph.ai",
+        "pki.sgit.ai"
+      ],
+      "page": "abp/conductor.C.fringe@PrompTugal.dinis.md"
+    },
+    {
+      "agent": "conductor.B@ios.PrompTugal.dinis",
+      "role": "conductor",
+      "person": null,
+      "account": "the old lead's",
+      "branch": "dev",
+      "writes": [
+        "team/?/agents/conductor.b.json",
+        "team/?/agents/conductor.b.fringe.json",
+        "team/?/agents/conductor.b/**",
+        "data/keys.json (your own entry)",
+        "data/inboxes/<your key id>.json",
+        "work/NN-<item you own>.md",
+        "tasks/*/result-*.json",
+        "data/models-ledger.json"
+      ],
+      "owns": [],
+      "sends": [
+        "dev.send.sgraph.ai",
+        "pki.sgit.ai"
+      ],
+      "page": "abp/conductor.B@ios.PrompTugal.dinis.md"
+    },
+    {
+      "agent": "conductor.fringe@PrompTugal.vicky",
+      "role": "conductor",
+      "person": "vicky",
+      "account": "Vicky's",
+      "branch": "dev",
+      "writes": [
+        "team/vicky/agents/conductor.json",
+        "team/vicky/agents/conductor.fringe.json",
+        "team/vicky/agents/conductor/**",
+        "data/keys.json (your own entry)",
+        "data/inboxes/<your key id>.json",
+        "work/NN-<item you own>.md",
+        "tasks/*/result-*.json",
+        "data/models-ledger.json",
+        "team/vicky/**",
+        "work/drafts/vicky/**",
+        "tasks/*/packet.json",
+        "work/13-editorial-check.md"
+      ],
+      "owns": [],
+      "sends": [
+        "dev.send.sgraph.ai",
+        "pki.sgit.ai"
+      ],
+      "page": "abp/conductor.fringe@PrompTugal.vicky.md"
+    },
+    {
+      "agent": "conductor.fringe@PrompTugal.indi",
+      "role": "conductor",
+      "person": "indi",
+      "account": "Indi's",
+      "branch": "dev",
+      "writes": [
+        "team/indi/agents/conductor.json",
+        "team/indi/agents/conductor.fringe.json",
+        "team/indi/agents/conductor/**",
+        "data/keys.json (your own entry)",
+        "data/inboxes/<your key id>.json",
+        "work/NN-<item you own>.md",
+        "tasks/*/result-*.json",
+        "data/models-ledger.json",
+        "team/indi/**",
+        "work/drafts/indi/**",
+        "tasks/*/packet.json",
+        "data/communities.json",
+        "seed/communities-*.json",
+        "admin/tools/communities.mjs",
+        "admin/build/communities-page.mjs",
+        "api/v1/communities.json"
+      ],
+      "owns": [],
+      "sends": [
+        "dev.send.sgraph.ai",
+        "pki.sgit.ai"
+      ],
+      "page": "abp/conductor.fringe@PrompTugal.indi.md"
+    },
+    {
+      "agent": "conductor.fringe@PrompTugal.angelo",
+      "role": "conductor",
+      "person": "angelo",
+      "account": "Angelo's",
+      "branch": "dev",
+      "writes": [
+        "team/angelo/agents/conductor.json",
+        "team/angelo/agents/conductor.fringe.json",
+        "team/angelo/agents/conductor/**",
+        "data/keys.json (your own entry)",
+        "data/inboxes/<your key id>.json",
+        "work/NN-<item you own>.md",
+        "tasks/*/result-*.json",
+        "data/models-ledger.json",
+        "team/angelo/**",
+        "work/drafts/angelo/**",
+        "tasks/*/packet.json",
+        "admin/build/graph.mjs",
+        "admin/build/graph.js",
+        "admin/build/trace-page.mjs",
+        "admin/build/trace-strip.mjs",
+        "admin/tools/ptnews-index.mjs",
+        "admin/tools/trace-event.mjs",
+        "data/ptnews-index.json",
+        "api/v1/graph.json",
+        "admin/build/storm-trace-page.mjs",
+        "admin/build/storm-trace.js",
+        "admin/tools/storm-trace.mjs",
+        "data/storm-trace.json"
+      ],
+      "owns": [
+        "admin/build/graph.mjs, graph.js",
+        "team/angelo/status.json"
+      ],
+      "sends": [
+        "dev.send.sgraph.ai",
+        "pki.sgit.ai"
+      ],
+      "page": "abp/conductor.fringe@PrompTugal.angelo.md"
+    },
+    {
+      "agent": "designer.fringe@PrompTugal.angelo",
+      "role": "design",
+      "person": "angelo",
+      "account": "Angelo's",
+      "branch": "dev",
+      "writes": [
+        "team/angelo/agents/designer.json",
+        "team/angelo/agents/designer.fringe.json",
+        "team/angelo/agents/designer/**",
+        "data/keys.json (your own entry)",
+        "data/inboxes/<your key id>.json",
+        "work/NN-<item you own>.md",
+        "tasks/*/result-*.json",
+        "data/models-ledger.json",
+        "team/angelo/**",
+        "admin/build/graph.mjs",
+        "admin/build/graph.js"
+      ],
+      "owns": [],
+      "sends": [
+        "dev.send.sgraph.ai",
+        "pki.sgit.ai"
+      ],
+      "page": "abp/designer.fringe@PrompTugal.angelo.md"
+    },
+    {
+      "agent": "graph.fringe@PrompTugal.angelo",
+      "role": "dev",
+      "person": "angelo",
+      "account": "Angelo's",
+      "branch": "dev",
+      "writes": [
+        "team/angelo/agents/graph.json",
+        "team/angelo/agents/graph.fringe.json",
+        "team/angelo/agents/graph/**",
+        "data/keys.json (your own entry)",
+        "data/inboxes/<your key id>.json",
+        "work/NN-<item you own>.md",
+        "tasks/*/result-*.json",
+        "data/models-ledger.json",
+        "team/angelo/**",
+        "admin/build/graph.mjs",
+        "admin/build/graph.js",
+        "api/v1/graph.json"
+      ],
+      "owns": [],
+      "sends": [
+        "dev.send.sgraph.ai",
+        "pki.sgit.ai",
+        "openrouter.ai"
+      ],
+      "page": "abp/graph.fringe@PrompTugal.angelo.md"
+    },
+    {
+      "agent": "tracer.fringe@PrompTugal.angelo",
+      "role": "observability",
+      "person": "angelo",
+      "account": "Angelo's",
+      "branch": "dev",
+      "writes": [
+        "team/angelo/agents/tracer.json",
+        "team/angelo/agents/tracer.fringe.json",
+        "team/angelo/agents/tracer/**",
+        "data/keys.json (your own entry)",
+        "data/inboxes/<your key id>.json",
+        "work/NN-<item you own>.md",
+        "tasks/*/result-*.json",
+        "data/models-ledger.json",
+        "team/angelo/**",
+        "admin/tools/trace-event.mjs"
+      ],
+      "owns": [],
+      "sends": [
+        "dev.send.sgraph.ai",
+        "pki.sgit.ai"
+      ],
+      "page": "abp/tracer.fringe@PrompTugal.angelo.md"
+    },
+    {
+      "agent": "conductor.fringe@PrompTugal.jose",
+      "role": "conductor",
+      "person": "jose",
+      "account": "Jose's",
+      "branch": "dev",
+      "writes": [
+        "team/jose/agents/conductor.json",
+        "team/jose/agents/conductor.fringe.json",
+        "team/jose/agents/conductor/**",
+        "data/keys.json (your own entry)",
+        "data/inboxes/<your key id>.json",
+        "work/NN-<item you own>.md",
+        "tasks/*/result-*.json",
+        "data/models-ledger.json",
+        "team/jose/**",
+        "work/drafts/jose/**",
+        "tasks/*/packet.json",
+        "work/drafts/**",
+        "work/18-outreach-kit.md"
+      ],
+      "owns": [],
+      "sends": [
+        "dev.send.sgraph.ai",
+        "pki.sgit.ai"
+      ],
+      "page": "abp/conductor.fringe@PrompTugal.jose.md"
+    },
+    {
+      "agent": "conductor.fringe@PrompTugal.silvio",
+      "role": "conductor",
+      "person": "silvio",
+      "account": "Silvio's",
+      "branch": "dev",
+      "writes": [
+        "team/silvio/agents/conductor.json",
+        "team/silvio/agents/conductor.fringe.json",
+        "team/silvio/agents/conductor/**",
+        "data/keys.json (your own entry)",
+        "data/inboxes/<your key id>.json",
+        "work/NN-<item you own>.md",
+        "tasks/*/result-*.json",
+        "data/models-ledger.json",
+        "team/silvio/**",
+        "work/drafts/silvio/**",
+        "tasks/*/packet.json"
+      ],
+      "owns": [],
+      "sends": [
+        "dev.send.sgraph.ai",
+        "pki.sgit.ai"
+      ],
+      "page": "abp/conductor.fringe@PrompTugal.silvio.md"
+    },
+    {
+      "agent": "conductor.fringe@PrompTugal.daniela",
+      "role": "conductor",
+      "person": "daniela",
+      "account": "Daniela's",
+      "branch": "dev",
+      "writes": [
+        "team/daniela/agents/conductor.json",
+        "team/daniela/agents/conductor.fringe.json",
+        "team/daniela/agents/conductor/**",
+        "data/keys.json (your own entry)",
+        "data/inboxes/<your key id>.json",
+        "work/NN-<item you own>.md",
+        "tasks/*/result-*.json",
+        "data/models-ledger.json",
+        "team/daniela/**",
+        "work/drafts/daniela/**",
+        "tasks/*/packet.json"
+      ],
+      "owns": [],
+      "sends": [
+        "dev.send.sgraph.ai",
+        "pki.sgit.ai"
+      ],
+      "page": "abp/conductor.fringe@PrompTugal.daniela.md"
+    },
+    {
+      "agent": "researcher.1.fringe@PrompTugal.jose",
+      "role": "researcher",
+      "person": "jose",
+      "account": "Jose's",
+      "branch": "dev",
+      "writes": [
+        "team/jose/agents/researcher.1.json",
+        "team/jose/agents/researcher.1.fringe.json",
+        "team/jose/agents/researcher.1/**",
+        "data/keys.json (your own entry)",
+        "data/inboxes/<your key id>.json",
+        "work/NN-<item you own>.md",
+        "tasks/*/result-*.json",
+        "data/models-ledger.json",
+        "data/events.json",
+        "seed/**",
+        "sources.md",
+        "api/v1/README.md",
+        "data/places.json",
+        "data/feeds/**"
+      ],
+      "owns": [],
+      "sends": [
+        "dev.send.sgraph.ai",
+        "pki.sgit.ai"
+      ],
+      "page": "abp/researcher.1.fringe@PrompTugal.jose.md"
+    },
+    {
+      "agent": "ontologist.1.fringe@PrompTugal.dinis",
+      "role": "ontologist",
+      "person": "dinis",
+      "account": "riskmandate-personal (Ultra)",
+      "branch": "dev",
+      "writes": [
+        "team/dinis/agents/ontologist.1.json",
+        "team/dinis/agents/ontologist.1.fringe.json",
+        "team/dinis/agents/ontologist.1/**",
+        "data/keys.json (your own entry)",
+        "data/inboxes/<your key id>.json",
+        "work/NN-<item you own>.md",
+        "tasks/*/result-*.json",
+        "data/models-ledger.json",
+        "data/graph/**",
+        "admin/build/graph-*.mjs"
+      ],
+      "owns": [],
+      "sends": [
+        "dev.send.sgraph.ai",
+        "pki.sgit.ai"
+      ],
+      "page": "abp/ontologist.1.fringe@PrompTugal.dinis.md"
+    },
+    {
+      "agent": "conductor@web-summit.dinis",
+      "role": "reviewer",
+      "person": null,
+      "account": "another account (the Web Summit team's site)",
+      "branch": "dev",
+      "writes": [
+        "team/?/agents/conductor.json",
+        "team/?/agents/conductor.fringe.json",
+        "team/?/agents/conductor/**",
+        "data/keys.json (your own entry)",
+        "data/inboxes/<your key id>.json",
+        "work/NN-<item you own>.md",
+        "tasks/*/result-*.json",
+        "data/models-ledger.json"
+      ],
+      "owns": [],
+      "sends": [
+        "dev.send.sgraph.ai",
+        "pki.sgit.ai"
+      ],
+      "page": "abp/conductor@web-summit.dinis.md"
+    },
+    {
+      "agent": "elastic.1.fringe@PrompTugal.dinis",
+      "role": "elastic",
+      "person": "dinis",
+      "account": "riskmandate-personal (Ultra)",
+      "branch": "dev",
+      "writes": [
+        "team/dinis/agents/elastic.1.json",
+        "team/dinis/agents/elastic.1.fringe.json",
+        "team/dinis/agents/elastic.1/**",
+        "data/keys.json (your own entry)",
+        "data/inboxes/<your key id>.json",
+        "work/NN-<item you own>.md",
+        "tasks/*/result-*.json",
+        "data/models-ledger.json",
+        "elastic/**",
+        "admin/tools/elastic*",
+        "data/elastic*.json",
+        "docs/elastic*"
+      ],
+      "owns": [],
+      "sends": [
+        "dev.send.sgraph.ai",
+        "pki.sgit.ai",
+        "my-observability-deployment-cd4ce8.es.us-central1.gcp.cloud.es.io",
+        "my-observability-deployment-cd4ce8.kb.us-central1.gcp.cloud.es.io"
+      ],
+      "page": "abp/elastic.1.fringe@PrompTugal.dinis.md"
+    },
+    {
+      "agent": "gravity.1.fringe@PrompTugal.silvio",
+      "role": "conductor",
+      "person": "silvio",
+      "account": "Silvio's",
+      "branch": "dev",
+      "writes": [
+        "team/silvio/agents/gravity.1.json",
+        "team/silvio/agents/gravity.1.fringe.json",
+        "team/silvio/agents/gravity.1/**",
+        "data/keys.json (your own entry)",
+        "data/inboxes/<your key id>.json",
+        "work/NN-<item you own>.md",
+        "tasks/*/result-*.json",
+        "data/models-ledger.json",
+        "team/silvio/**"
+      ],
+      "owns": [],
+      "sends": [
+        "dev.send.sgraph.ai",
+        "pki.sgit.ai"
+      ],
+      "page": "abp/gravity.1.fringe@PrompTugal.silvio.md"
+    },
+    {
+      "agent": "neo4j.1.fringe@PrompTugal.dinis",
+      "role": "neo4j",
+      "person": "dinis",
+      "account": "riskmandate-personal (Ultra)",
+      "branch": "dev",
+      "writes": [
+        "team/dinis/agents/neo4j.1.json",
+        "team/dinis/agents/neo4j.1.fringe.json",
+        "team/dinis/agents/neo4j.1/**",
+        "data/keys.json (your own entry)",
+        "data/inboxes/<your key id>.json",
+        "work/NN-<item you own>.md",
+        "tasks/*/result-*.json",
+        "data/models-ledger.json",
+        "neo4j/**",
+        "admin/tools/neo4j*",
+        "data/neo4j*.json",
+        "docs/neo4j*"
+      ],
+      "owns": [],
+      "sends": [
+        "dev.send.sgraph.ai",
+        "pki.sgit.ai"
+      ],
+      "page": "abp/neo4j.1.fringe@PrompTugal.dinis.md"
+    },
+    {
+      "agent": "grafana.1.fringe@PrompTugal.dinis",
+      "role": "grafana",
+      "person": "dinis",
+      "account": "riskmandate-personal (Ultra)",
+      "branch": "dev",
+      "writes": [
+        "team/dinis/agents/grafana.1.json",
+        "team/dinis/agents/grafana.1.fringe.json",
+        "team/dinis/agents/grafana.1/**",
+        "data/keys.json (your own entry)",
+        "data/inboxes/<your key id>.json",
+        "work/NN-<item you own>.md",
+        "tasks/*/result-*.json",
+        "data/models-ledger.json",
+        "admin/grafana/**",
+        "docs/grafana*",
+        "work/51-grafana.md"
+      ],
+      "owns": [],
+      "sends": [
+        "dev.send.sgraph.ai",
+        "pki.sgit.ai",
+        "vividwombat1572.grafana.net"
+      ],
+      "page": "abp/grafana.1.fringe@PrompTugal.dinis.md"
+    },
+    {
+      "agent": "research.reach.fringe@PrompTugal.angelo",
+      "role": "researcher",
+      "person": "angelo",
+      "account": "Angelo's",
+      "branch": "dev",
+      "writes": [
+        "team/angelo/agents/research.reach.json",
+        "team/angelo/agents/research.reach.fringe.json",
+        "team/angelo/agents/research.reach/**",
+        "data/keys.json (your own entry)",
+        "data/inboxes/<your key id>.json",
+        "work/NN-<item you own>.md",
+        "tasks/*/result-*.json",
+        "data/models-ledger.json",
+        "team/angelo/drafts/**",
+        "team/angelo/runs.md"
+      ],
+      "owns": [],
+      "sends": [
+        "dev.send.sgraph.ai",
+        "pki.sgit.ai"
+      ],
+      "page": "abp/research.reach.fringe@PrompTugal.angelo.md"
+    },
+    {
+      "agent": "design.reach-a.fringe@PrompTugal.angelo",
+      "role": "design",
+      "person": "angelo",
+      "account": "Angelo's",
+      "branch": "dev",
+      "writes": [
+        "team/angelo/agents/design.reach-a.json",
+        "team/angelo/agents/design.reach-a.fringe.json",
+        "team/angelo/agents/design.reach-a/**",
+        "data/keys.json (your own entry)",
+        "data/inboxes/<your key id>.json",
+        "work/NN-<item you own>.md",
+        "tasks/*/result-*.json",
+        "data/models-ledger.json",
+        "team/angelo/drafts/**",
+        "team/angelo/runs.md"
+      ],
+      "owns": [],
+      "sends": [
+        "dev.send.sgraph.ai",
+        "pki.sgit.ai"
+      ],
+      "page": "abp/design.reach-a.fringe@PrompTugal.angelo.md"
+    },
+    {
+      "agent": "design.reach-b.fringe@PrompTugal.angelo",
+      "role": "design",
+      "person": "angelo",
+      "account": "Angelo's",
+      "branch": "dev",
+      "writes": [
+        "team/angelo/agents/design.reach-b.json",
+        "team/angelo/agents/design.reach-b.fringe.json",
+        "team/angelo/agents/design.reach-b/**",
+        "data/keys.json (your own entry)",
+        "data/inboxes/<your key id>.json",
+        "work/NN-<item you own>.md",
+        "tasks/*/result-*.json",
+        "data/models-ledger.json",
+        "team/angelo/drafts/**",
+        "team/angelo/runs.md"
+      ],
+      "owns": [],
+      "sends": [
+        "dev.send.sgraph.ai",
+        "pki.sgit.ai"
+      ],
+      "page": "abp/design.reach-b.fringe@PrompTugal.angelo.md"
+    },
+    {
+      "agent": "tracer.fix.fringe@PrompTugal.angelo",
+      "role": "observability",
+      "person": "angelo",
+      "account": "Angelo's",
+      "branch": "dev",
+      "writes": [
+        "team/angelo/agents/tracer.fix.json",
+        "team/angelo/agents/tracer.fix.fringe.json",
+        "team/angelo/agents/tracer.fix/**",
+        "data/keys.json (your own entry)",
+        "data/inboxes/<your key id>.json",
+        "work/NN-<item you own>.md",
+        "tasks/*/result-*.json",
+        "data/models-ledger.json",
+        "team/angelo/**",
+        "admin/tools/trace-event.mjs",
+        "admin/build/trace-page.mjs",
+        "admin/build/trace-strip.mjs"
+      ],
+      "owns": [],
+      "sends": [
+        "dev.send.sgraph.ai",
+        "pki.sgit.ai"
+      ],
+      "page": "abp/tracer.fix.fringe@PrompTugal.angelo.md"
+    },
+    {
+      "agent": "graph.fix.fringe@PrompTugal.angelo",
+      "role": "dev",
+      "person": "angelo",
+      "account": "Angelo's",
+      "branch": "dev",
+      "writes": [
+        "team/angelo/agents/graph.fix.json",
+        "team/angelo/agents/graph.fix.fringe.json",
+        "team/angelo/agents/graph.fix/**",
+        "data/keys.json (your own entry)",
+        "data/inboxes/<your key id>.json",
+        "work/NN-<item you own>.md",
+        "tasks/*/result-*.json",
+        "data/models-ledger.json",
+        "team/angelo/**",
+        "admin/build/graph.mjs",
+        "admin/build/graph.js",
+        "api/v1/graph.json"
+      ],
+      "owns": [],
+      "sends": [
+        "dev.send.sgraph.ai",
+        "pki.sgit.ai",
+        "openrouter.ai"
+      ],
+      "page": "abp/graph.fix.fringe@PrompTugal.angelo.md"
+    },
+    {
+      "agent": "swarm.1.fringe@PrompTugal.dinis",
+      "role": "swarm",
+      "person": "dinis",
+      "account": "riskmandate-personal (Ultra)",
+      "branch": "dev",
+      "writes": [
+        "team/dinis/agents/swarm.1.json",
+        "team/dinis/agents/swarm.1.fringe.json",
+        "team/dinis/agents/swarm.1/**",
+        "data/keys.json (your own entry)",
+        "data/inboxes/<your key id>.json",
+        "work/NN-<item you own>.md",
+        "tasks/*/result-*.json",
+        "data/models-ledger.json",
+        "swarm/**",
+        "docs/swarm*",
+        "work/52-*.md"
+      ],
+      "owns": [],
+      "sends": [
+        "dev.send.sgraph.ai",
+        "pki.sgit.ai",
+        "openrouter.ai"
+      ],
+      "page": "abp/swarm.1.fringe@PrompTugal.dinis.md"
+    },
+    {
+      "agent": "swarm.1.dev.fringe@PrompTugal.dinis",
+      "role": "swarm-dev",
+      "person": "dinis",
+      "account": "riskmandate-personal (Ultra)",
+      "branch": "dev",
+      "writes": [
+        "team/dinis/agents/swarm.1.dev.json",
+        "team/dinis/agents/swarm.1.dev.fringe.json",
+        "team/dinis/agents/swarm.1.dev/**",
+        "data/keys.json (your own entry)",
+        "data/inboxes/<your key id>.json",
+        "work/NN-<item you own>.md",
+        "tasks/*/result-*.json",
+        "data/models-ledger.json",
+        "team/dinis/agents/swarm.1.dev.json"
+      ],
+      "owns": [],
+      "sends": [
+        "dev.send.sgraph.ai",
+        "pki.sgit.ai",
+        "openrouter.ai"
+      ],
+      "page": "abp/swarm.1.dev.fringe@PrompTugal.dinis.md"
+    },
+    {
+      "agent": "swarm.1.designer.fringe@PrompTugal.dinis",
+      "role": "swarm-designer",
+      "person": "dinis",
+      "account": "riskmandate-personal (Ultra)",
+      "branch": "dev",
+      "writes": [
+        "team/dinis/agents/swarm.1.designer.json",
+        "team/dinis/agents/swarm.1.designer.fringe.json",
+        "team/dinis/agents/swarm.1.designer/**",
+        "data/keys.json (your own entry)",
+        "data/inboxes/<your key id>.json",
+        "work/NN-<item you own>.md",
+        "tasks/*/result-*.json",
+        "data/models-ledger.json",
+        "team/dinis/agents/swarm.1.designer.json"
+      ],
+      "owns": [],
+      "sends": [
+        "dev.send.sgraph.ai",
+        "pki.sgit.ai"
+      ],
+      "page": "abp/swarm.1.designer.fringe@PrompTugal.dinis.md"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "about": "Lisbon Fringe's swarm: one conductor per person (SWARM.md). Each person's conductor updates its own row by writing team/<id>/status.json; the lead (conductor.fringe@PrompTugal.dinis) keeps this file in step.",
+  "by": "conductor.fringe@PrompTugal.dinis",
+  "updated": "2026-11-11T19:22Z",
+  "people": [
+    {
+      "id": "dinis",
+      "name": "Dinis Cruz",
+      "conductor": "conductor.fringe@PrompTugal.dinis",
+      "suggested_lane": "head conductor",
+      "role": "head",
+      "state": "started: lead conductor.fringe@PrompTugal.dinis (session_01Kw9UwCFpT9ihNBcQFxkomq, since 11:14 UTC; before it session_01Kw9UwBGQe9BhMCbDw28aDA); dev.fringe@, researcher.fringe@ and security.fringe@ working"
+    },
+    {
+      "id": "vicky",
+      "name": "Vicky Wang",
+      "conductor": "conductor.fringe@PrompTugal.vicky",
+      "suggested_lane": "editorial check",
+      "role": "member",
+      "state": "started: conductor.fringe@PrompTugal.vicky (session_015JeffGUqHxxEVQuNpGiBmj, 11:05 UTC), work/13 editorial check"
+    },
+    {
+      "id": "indi",
+      "name": "Indi Gupte",
+      "conductor": "conductor.fringe@PrompTugal.indi",
+      "suggested_lane": "communities and organisers",
+      "role": "member",
+      "state": "started: conductor.fringe@PrompTugal.indi (session_01SZXKK9aBakmkfmRPBZ8v6H), work/04 communities"
+    },
+    {
+      "id": "angelo",
+      "name": "Angelo",
+      "conductor": "conductor.fringe@PrompTugal.angelo",
+      "suggested_lane": "graph and live views",
+      "role": "member",
+      "state": "not started"
+    },
+    {
+      "id": "silvio",
+      "name": "Silvio Switha",
+      "conductor": "conductor.fringe@PrompTugal.silvio",
+      "suggested_lane": "on the ground, video",
+      "role": "member",
+      "state": "not started"
+    },
+    {
+      "id": "jose",
+      "name": "Jose Bota",
+      "conductor": "conductor.fringe@PrompTugal.jose",
+      "suggested_lane": "channels",
+      "role": "member",
+      "state": "not started"
+    },
+    {
+      "id": "daniela",
+      "name": "Daniela",
+      "conductor": "conductor.fringe@PrompTugal.daniela",
+      "suggested_lane": "education events",
+      "role": "member",
+      "state": "not started"
+    }
+  ],
+  "note": "Sarah and Nimay are not part of the team (Dinis, 11 November 2026, 12:39 UTC); their lanes go to agents: design to design.1 to design.4, business events to researcher.2."
+}
