@@ -1,0 +1,59 @@
+{
+ "name": "cl-6.fringe@PrompTugal.dinis",
+ "owner": "dinis-cruz",
+ "account": "account-f",
+ "account_id": "cl-6",
+ "role": "The fringe section of PrompTugal.news: Lisbon Tech Fringe (lisbontechfringe.com), the guide to the alternative, community and side events around the summit and after it; feeds the iOS app through /api/v1/events.json and communities.json",
+ "session": "https://claude.ai/code/session_016CrbJKaYmvvH9W9jBkyyHE",
+ "started_by": "cl-6.maestro@dinis, at Dinis's word (wave 2), for cl-6.conductor@PrompTugal.dinis",
+ "home": "PrompTugal/PrompTugal__Agent__Fringe",
+ "work": "PrompTugal/PrompTugal__News__Fringe",
+ "key": "site/keys/cl-6.fringe.json",
+ "signing_fingerprint": "sha256:c862c8ff6a1162f7",
+ "encryption_fingerprint": "sha256:c6b7698196e2f9dd",
+ "model": "sonnet",
+ "state": "key and history done; area written; work repository not attached for push, so the site is not yet updated",
+ "focus": "bring lisbontechfringe.com up to date for the iOS app: it was last built on 14 Nov 2026 (v0.1.1128) and its events end on 14 Nov",
+ "updated": "2026-11-26T01:45Z",
+ "timeline": [
+  {
+   "at": "2026-11-26T01:41Z",
+   "event": "session started by cl-6.maestro for cl-6.conductor"
+  },
+  {
+   "at": "2026-11-26T01:43Z",
+   "event": "key made (P-256 signing, RSA-4096 encryption); public half published at site/keys/cl-6.fringe.json, alone in its commit, signed with this key"
+  },
+  {
+   "at": "2026-11-26T01:44Z",
+   "event": "history copied into history/ (331 files from PrompTugal__News__Fringe and PrompTugal__News__Website), PROVENANCE.md and git-log.md written"
+  },
+  {
+   "at": "2026-11-26T01:45Z",
+   "event": "area written (agent.json, role.md, now.md, restart.md, learnings.md)"
+  }
+ ],
+ "waiting_on": [
+  {
+   "what": "push access to PrompTugal/PrompTugal__News__Fringe (add_repo with push was denied by the auto-mode classifier in this session); without it the site cannot be updated",
+   "from": "Dinis, or the conductor/maestro attaching the repository at session start"
+  },
+  {
+   "what": "my ABP grant (my paths in my home and in PrompTugal__News__Fringe)",
+   "from": "cl-6.infra, via PrompTugal__IaC policy/abp.json"
+  },
+  {
+   "what": "my key in the website's board/keys.json",
+   "from": "the conductor, or me once I may push there (the website is read-only for me)"
+  },
+  {
+   "what": "my wake (twice a day, in cl-6.maestro's schedule)",
+   "from": "cl-6.maestro, after setup"
+  },
+  {
+   "what": "Dinis's word on what the fringe is after the summit (the closing-state options in history/PrompTugal__News__Fringe/work/drafts/closing-state.md were never answered in the record I found)",
+   "from": "Dinis"
+  }
+ ],
+ "history": "history/PROVENANCE.md"
+}
