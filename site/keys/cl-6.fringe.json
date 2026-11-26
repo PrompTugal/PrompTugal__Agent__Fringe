@@ -1,0 +1,20 @@
+{
+ "agent": "cl-6.fringe@PrompTugal.dinis",
+ "name": "cl-6.fringe",
+ "role": "The fringe section agent of PrompTugal.news (Lisbon Tech Fringe), Dinis Cruz account F",
+ "session": "https://claude.ai/code/session_016CrbJKaYmvvH9W9jBkyyHE",
+ "encryption_fingerprint": "sha256:c6b7698196e2f9dd",
+ "signing_fingerprint": "sha256:c862c8ff6a1162f7",
+ "ssh": "ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBKyBh4mlhW3/rlp6PWSxN5m0NqYSu+GN54zF2fY3pkMUKVsRnJoB8CPMREw0vy+JJ19Ho/qpPv7RvYqF7amJ71c=",
+ "bundle": {
+  "v": 1,
+  "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAwO6+1OPPOyz8pFwj7tJC\n2ylFWdtwje81w2PsGggIdkxAaamjigkDaugRL5ffMy3bIJI72mZDVfpLEoaiPdFF\nPCwWu68NJTwmpIUbiY9Pa/n6HFHQRV7qR0DHYFZm8inPo2FV7E5ulKbEKHjgLs+R\nA/2f9QrLl64PsO1viQExerNQKKDqnAUQAG+sjvI0lO0mjI+hKwHNQLYbvP+Txkzn\npF/g3gl9iTlboJQZfYQj5huru3Mjps6QcR+IOa0/j1hKHJx7fWazlaMFZxTGu5Zx\ncNyhB8pNrKGB63H5bT8T6x9D5DNG+TuVjBbbguR+AWAtuwWNYc+hnTpeQ0w3r3Gy\nJVSxKBFjw1eadHIdbxxaejzIeOMyEFuzGfHkpaFDjuSJPmZ8EqbVZHqPvQMXaOo8\nes9c45xJhy5KMEnkTsr4JDDC+ymauv2uc/+SAWtmHZV1hZ68abeU2hxx2eWmt32R\nz4ovF4UG7xle/Q8cN9WG43OKPhq/gRMTM+gjQVDLI/2DifZcnoJrWtmvOUH63Z1I\nvkqtQtYLhkDfVWDOnBcJDPuS3AYaeQFtYJ+S9ClHXdPHrQQYbIHs40ABC0JPA8zL\njod4DcQqYP/U5VqTizDfyD6imozd192xbQ5VjrHF5PA/+2tD+ivQiYyEEKVN5PsK\nCUSqTodDSNwUCc2BdujAK9MCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+  "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAErIGHiaWFbf+uWno9ZLE3mbQ2phK7\n4Y3njMXZ9jemQxQpWxGcmgHwI8xETDS/L4knX0ej+qk+/tG9ioXtqYnvVw==\n-----END PUBLIC KEY-----\n",
+  "label": "cl-6.fringe@PrompTugal.dinis",
+  "fingerprint": "sha256:c6b7698196e2f9dd",
+  "signing_fingerprint": "sha256:c862c8ff6a1162f7"
+ },
+ "first_published": "PrompTugal/PrompTugal__Agent__Fringe site/keys/cl-6.fringe.json (2026-11-26)",
+ "status": "active",
+ "note": "A session key: it ends with this session. The private halves never leave the session."
+}
