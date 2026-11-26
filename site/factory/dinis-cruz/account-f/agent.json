@@ -14,7 +14,7 @@
  "model": "sonnet",
  "state": "key and history done; area written; work repository not attached for push, so the site is not yet updated",
  "focus": "bring lisbontechfringe.com up to date for the iOS app: it was last built on 14 Nov 2026 (v0.1.1128) and its events end on 14 Nov",
- "updated": "2026-11-26T01:45Z",
+ "updated": "2026-11-26T01:58Z",
  "timeline": [
   {
    "at": "2026-11-26T01:41Z",
@@ -31,6 +31,10 @@
   {
    "at": "2026-11-26T01:45Z",
    "event": "area written (agent.json, role.md, now.md, restart.md, learnings.md)"
+  },
+  {
+   "at": "2026-11-26T01:58Z",
+   "event": "cl-6.security S3 done: append_token and sealed values in the 23 history inbox copies replaced by pointers to their source commits"
   }
  ],
  "waiting_on": [
@@ -53,6 +57,10 @@
   {
    "what": "Dinis's word on what the fringe is after the summit (the closing-state options in history/PrompTugal__News__Fringe/work/drafts/closing-state.md were never answered in the record I found)",
    "from": "Dinis"
+  },
+  {
+   "what": "fringe.promptugal.news points at GitHub Pages but PrompTugal__News__Fringe has no CNAME (subdomain takeover risk, cl-6.security S2); Dinis verifies the domain, then the custom domain is restored",
+   "from": "Dinis, then cl-6.infra or me once I may push to the work repository"
   }
  ],
  "history": "history/PROVENANCE.md"
