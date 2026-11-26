@@ -3,7 +3,7 @@
  "owner": "dinis-cruz",
  "account": "account-f",
  "account_id": "cl-6",
- "role": "The fringe section of PrompTugal.news: Lisbon Tech Fringe (lisbontechfringe.com), the guide to the alternative, community and side events around the summit and after it; feeds the iOS app through /api/v1/events.json and communities.json",
+ "role": "The fringe section of PrompTugal.news: Lisbon Tech Fringe (lisbontechfringe.com), an event site whose team's work ended on 14 Nov 2026; kept live as it is. Archived here with its history.",
  "session": "https://claude.ai/code/session_016CrbJKaYmvvH9W9jBkyyHE",
  "started_by": "cl-6.maestro@dinis, at Dinis's word (wave 2), for cl-6.conductor@PrompTugal.dinis",
  "home": "PrompTugal/PrompTugal__Agent__Fringe",
@@ -12,9 +12,9 @@
  "signing_fingerprint": "sha256:c862c8ff6a1162f7",
  "encryption_fingerprint": "sha256:c6b7698196e2f9dd",
  "model": "sonnet",
- "state": "key and history done; area written; work repository not attached for push, so the site is not yet updated",
- "focus": "bring lisbontechfringe.com up to date for the iOS app: it was last built on 14 Nov 2026 (v0.1.1128) and its events end on 14 Nov",
- "updated": "2026-11-26T01:58Z",
+ "state": "archived: history moved; no wake",
+ "focus": "none. Lisbon Tech Fringe was an event site; its team's work ended 14 Nov 2026 and the site stays live as it is at lisbontechfringe.com",
+ "updated": "2026-11-26T02:12Z",
  "timeline": [
   {
    "at": "2026-11-26T01:41Z",
@@ -33,35 +33,17 @@
    "event": "area written (agent.json, role.md, now.md, restart.md, learnings.md)"
   },
   {
-   "at": "2026-11-26T01:58Z",
+   "at": "2026-11-26T01:55Z",
    "event": "cl-6.security S3 done: append_token and sealed values in the 23 history inbox copies replaced by pointers to their source commits"
+  },
+  {
+   "at": "2026-11-26T02:12Z",
+   "event": "cl-6.maestro, relaying Dinis (\"yes, stop it after the history\"): scope is steps 1 to 3 only; no site update, no wake, no ABP grant; state set to archived"
   }
  ],
- "waiting_on": [
-  {
-   "what": "push access to PrompTugal/PrompTugal__News__Fringe (add_repo with push was denied by the auto-mode classifier in this session); without it the site cannot be updated",
-   "from": "Dinis, or the conductor/maestro attaching the repository at session start"
-  },
-  {
-   "what": "my ABP grant (my paths in my home and in PrompTugal__News__Fringe)",
-   "from": "cl-6.infra, via PrompTugal__IaC policy/abp.json"
-  },
-  {
-   "what": "my key in the website's board/keys.json",
-   "from": "the conductor, or me once I may push there (the website is read-only for me)"
-  },
-  {
-   "what": "my wake (twice a day, in cl-6.maestro's schedule)",
-   "from": "cl-6.maestro, after setup"
-  },
-  {
-   "what": "Dinis's word on what the fringe is after the summit (the closing-state options in history/PrompTugal__News__Fringe/work/drafts/closing-state.md were never answered in the record I found)",
-   "from": "Dinis"
-  },
-  {
-   "what": "fringe.promptugal.news points at GitHub Pages but PrompTugal__News__Fringe has no CNAME (subdomain takeover risk, cl-6.security S2); Dinis verifies the domain, then the custom domain is restored",
-   "from": "Dinis, then cl-6.infra or me once I may push to the work repository"
-  }
- ],
- "history": "history/PROVENANCE.md"
+ "waiting_on": [],
+ "history": "history/PROVENANCE.md",
+ "open_notes": [
+  "cl-6.security S2: fringe.promptugal.news points at GitHub Pages but PrompTugal__News__Fringe has no CNAME (subdomain takeover risk); for Dinis to verify the domain, then cl-6.infra restores it. Not a wake or grant; noted for whoever holds the work repository."
+ ]
 }
